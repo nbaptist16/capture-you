@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<Skein rootNode="node-0x101890" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+  <generator>Zoom</generator>
+  <activeNode nodeId="node-0x101890" />
+  <item nodeId="node-0x101890">
+    <command xml:space="preserve">- start -</command>
+    <result xml:space="preserve">
+
+
+capture you
+An Interactive Fiction by Nicole Baptist
+Release 1 / Serial number 141014 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+
+Entrance
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="18">NO</temporary>
+    <children>
+      <child nodeId="node-0x30b860" />
+    </children>
+  </item>
+  <item nodeId="node-0x30b860">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+I
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9649250" />
+    </children>
+  </item>
+  <item nodeId="node-0x9649250">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+II
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x70a7300" />
+    </children>
+  </item>
+  <item nodeId="node-0x70a7300">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+III
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x7018100" />
+    </children>
+  </item>
+  <item nodeId="node-0x7018100">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+IV
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x360460" />
+    </children>
+  </item>
+  <item nodeId="node-0x360460">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+III
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x311f70" />
+    </children>
+  </item>
+  <item nodeId="node-0x311f70">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+II
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x70d9b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x70d9b40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9645db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9645db0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9664dd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9664dd0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+III
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x70b4cd0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70b4cd0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+V
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x965f8e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x965f8e0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+VI
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9643a40" />
+    </children>
+  </item>
+  <item nodeId="node-0x9643a40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+VII
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x70f4dc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x70f4dc0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+VIII
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x1256a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1256a0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x96552b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x96552b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+VII
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x9667ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9667ab0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+    <children>
+      <child nodeId="node-0x151600" />
+    </children>
+  </item>
+  <item nodeId="node-0x151600">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="17">YES</temporary>
+  </item>
+</Skein>
