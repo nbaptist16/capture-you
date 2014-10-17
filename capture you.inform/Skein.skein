@@ -1,79 +1,397 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x101890" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x3e23e0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x101890" />
-  <item nodeId="node-0x101890">
+  <activeNode nodeId="node-0x3e23e0" />
+  <item nodeId="node-0x3e23e0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 capture you
 An Interactive Fiction by Nicole Baptist
-Release 1 / Serial number 141014 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+Release 1 / Serial number 141016 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Entrance
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="18">NO</temporary>
+    <temporary score="113">NO</temporary>
     <children>
-      <child nodeId="node-0x30b860" />
+      <child nodeId="node-0x7457770" />
+      <child nodeId="node-0x3e2430" />
+      <child nodeId="node-0x74a6240" />
+      <child nodeId="node-0x74e92d0" />
     </children>
   </item>
-  <item nodeId="node-0x30b860">
+  <item nodeId="node-0x74e92d0">
+    <command xml:space="preserve">look</command>
+    <result xml:space="preserve">Entrance
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x94a9440" />
+    </children>
+  </item>
+  <item nodeId="node-0x94a9440">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x749dc40" />
+    </children>
+  </item>
+  <item nodeId="node-0x749dc40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 I
+You&apos;ll have to say which compass direction to go in.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x9649250" />
+      <child nodeId="node-0x744b810" />
     </children>
   </item>
-  <item nodeId="node-0x9649250">
+  <item nodeId="node-0x744b810">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x746db00" />
+    </children>
+  </item>
+  <item nodeId="node-0x746db00">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x74a4cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0x74a4cc0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Entrance
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0x9468ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0x9468ef0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+I
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="11">YES</temporary>
+  </item>
+  <item nodeId="node-0x74a6240">
+    <command xml:space="preserve">N</command>
+    <result xml:space="preserve">
+I
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0x148f80" />
+    </children>
+  </item>
+  <item nodeId="node-0x148f80">
+    <command xml:space="preserve">W</command>
+    <result xml:space="preserve">
+II
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b06d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b06d0">
+    <command xml:space="preserve">W</command>
+    <result xml:space="preserve">
+III
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0x74f3e60" />
+    </children>
+  </item>
+  <item nodeId="node-0x74f3e60">
+    <command xml:space="preserve">N</command>
+    <result xml:space="preserve">
+IV room
+What appears to be the guards&quot; break room. A simple, clean room with a few tables and chairs for the base&apos;s security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet.
+
+You can see Tables and Chairs here.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xec7a490" />
+    </children>
+  </item>
+  <item nodeId="node-0xec7a490">
+    <command xml:space="preserve">x chairs</command>
+    <result xml:space="preserve">You check each chair for anything that might have fallen out of the guards&quot; pockets. On one chair, you find a pack of cigaretts. &quot;Hey, you found cigarettes! Mind sharing?&quot; asks Roy, as he grabs hold of the cigarette pack...along with your hand holding it. It appears you must give him a cigarette before he releases your hand.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0x7409c00" />
+    </children>
+  </item>
+  <item nodeId="node-0x7409c00">
+    <command xml:space="preserve">x cigarette pack</command>
+    <result xml:space="preserve">&quot;WHAT?! WHAT THE HEAK ARE THOSE M&amp;Ms DOING IN THERE?&quot; Roy releases your hand in favor of throwing his hands above his head in frustration.  You look at Roy, a blank expression plastered on your face. You see a Red M&amp;M, a blue M&amp;M, and a green M&amp;M.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xec68340" />
+    </children>
+  </item>
+  <item nodeId="node-0xec68340">
+    <command xml:space="preserve">open cigarette pack</command>
+    <result xml:space="preserve">&quot;WHAT?! WHAT THE HEAK ARE THOSE M&amp;Ms DOING IN THERE?&quot; Roy releases your hand in favor of throwing his hands above his head in frustration.  You look at Roy, a blank expression plastered on your face. You see a Red M&amp;M, a blue M&amp;M, and a green M&amp;M.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="113">YES</temporary>
+    <children>
+      <child nodeId="node-0xef2dc00" />
+    </children>
+  </item>
+  <item nodeId="node-0xef2dc00">
+    <command xml:space="preserve">x red m&amp;m</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="112">YES</temporary>
+  </item>
+  <item nodeId="node-0x3e2430">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+I
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x341830" />
+      <child nodeId="node-0x74e00b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x74e00b0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x74e3740" />
+    </children>
+  </item>
+  <item nodeId="node-0x74e3740">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x74e38e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x74e38e0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 II
+You&apos;ll have to say which compass direction to go in.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x341830">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+II
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
     <children>
-      <child nodeId="node-0x70a7300" />
+      <child nodeId="node-0x341880" />
     </children>
   </item>
-  <item nodeId="node-0x70a7300">
+  <item nodeId="node-0x341880">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 III
+You&apos;ll have to say which compass direction to go in.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="38">YES</temporary>
     <children>
-      <child nodeId="node-0x7018100" />
+      <child nodeId="node-0x3418d0" />
     </children>
   </item>
-  <item nodeId="node-0x7018100">
+  <item nodeId="node-0x3418d0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
-IV
+IV room
+What appears to be the guards&quot; break room. A simple, clean room with a few tables and chairs for the base&apos;s security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet.
+
+You can see Tables and Chairs here.
+
+You&apos;ll have to say which compass direction to go in.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="18">YES</temporary>
+    <temporary score="38">YES</temporary>
     <children>
-      <child nodeId="node-0x360460" />
+      <child nodeId="node-0x341920" />
+      <child nodeId="node-0x74f0d70" />
     </children>
   </item>
-  <item nodeId="node-0x360460">
+  <item nodeId="node-0x74f0d70">
+    <command xml:space="preserve">x tables</command>
+    <result xml:space="preserve">You scan the tables to check for any clues the guards carelessly left behind. Unfortunately, there are no clues to be found.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x1156b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1156b0">
+    <command xml:space="preserve">x chair</command>
+    <result xml:space="preserve">You check each chair for anything that might have fallen out of the guards&quot; pockets. On one chair, you find a pack of cigaretts. You pocket the pack.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0xec7b980" />
+    </children>
+  </item>
+  <item nodeId="node-0xec7b980">
+    <command xml:space="preserve">x cigarette packet</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0x1d0e00" />
+    </children>
+  </item>
+  <item nodeId="node-0x1d0e00">
+    <command xml:space="preserve">x cigarette pack</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+    <children>
+      <child nodeId="node-0xec957a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xec957a0">
+    <command xml:space="preserve">x cigarette pack</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="37">YES</temporary>
+  </item>
+  <item nodeId="node-0x341920">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 III
@@ -83,10 +401,10 @@ III
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x311f70" />
+      <child nodeId="node-0x341970" />
     </children>
   </item>
-  <item nodeId="node-0x311f70">
+  <item nodeId="node-0x341970">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 II
@@ -96,10 +414,10 @@ II
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x70d9b40" />
+      <child nodeId="node-0x341a40" />
     </children>
   </item>
-  <item nodeId="node-0x70d9b40">
+  <item nodeId="node-0x341a40">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -108,10 +426,10 @@ II
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9645db0" />
+      <child nodeId="node-0x341a90" />
     </children>
   </item>
-  <item nodeId="node-0x9645db0">
+  <item nodeId="node-0x341a90">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -120,10 +438,10 @@ II
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9664dd0" />
+      <child nodeId="node-0x341ae0" />
     </children>
   </item>
-  <item nodeId="node-0x9664dd0">
+  <item nodeId="node-0x341ae0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 III
@@ -133,10 +451,10 @@ III
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x70b4cd0" />
+      <child nodeId="node-0x341b50" />
     </children>
   </item>
-  <item nodeId="node-0x70b4cd0">
+  <item nodeId="node-0x341b50">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 V
@@ -146,10 +464,10 @@ V
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x965f8e0" />
+      <child nodeId="node-0x341bc0" />
     </children>
   </item>
-  <item nodeId="node-0x965f8e0">
+  <item nodeId="node-0x341bc0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 VI
@@ -159,10 +477,10 @@ VI
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9643a40" />
+      <child nodeId="node-0x341cf0" />
     </children>
   </item>
-  <item nodeId="node-0x9643a40">
+  <item nodeId="node-0x341cf0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 VII
@@ -172,10 +490,10 @@ VII
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x70f4dc0" />
+      <child nodeId="node-0x3419e0" />
     </children>
   </item>
-  <item nodeId="node-0x70f4dc0">
+  <item nodeId="node-0x3419e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 VIII
@@ -185,10 +503,10 @@ VIII
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x1256a0" />
+      <child nodeId="node-0x341d60" />
     </children>
   </item>
-  <item nodeId="node-0x1256a0">
+  <item nodeId="node-0x341d60">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -197,10 +515,10 @@ VIII
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x96552b0" />
+      <child nodeId="node-0x341dd0" />
     </children>
   </item>
-  <item nodeId="node-0x96552b0">
+  <item nodeId="node-0x341dd0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 VII
@@ -210,10 +528,10 @@ VII
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x9667ab0" />
+      <child nodeId="node-0x341e40" />
     </children>
   </item>
-  <item nodeId="node-0x9667ab0">
+  <item nodeId="node-0x341e40">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -222,10 +540,10 @@ VII
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
     <children>
-      <child nodeId="node-0x151600" />
+      <child nodeId="node-0x341eb0" />
     </children>
   </item>
-  <item nodeId="node-0x151600">
+  <item nodeId="node-0x341eb0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -233,5 +551,116 @@ VII
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="17">YES</temporary>
+  </item>
+  <item nodeId="node-0x7457770">
+    <command xml:space="preserve">eat red m&amp;m</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x74d24c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x74d24c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+I
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x74412b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x74412b0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+II
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x7414960" />
+    </children>
+  </item>
+  <item nodeId="node-0x7414960">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+III
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x74b8eb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x74b8eb0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+IV room
+What appears to be the guards&quot; break room. A simple, clean room with a few tables and chairs for the base&apos;s security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet.
+
+You can see Tables, Chairs and Cigarette pack (closed) here.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x744dc70" />
+    </children>
+  </item>
+  <item nodeId="node-0x744dc70">
+    <command xml:space="preserve">x tables</command>
+    <result xml:space="preserve">You scan the tables to check for any clues the guards carelessly left behind. Unfortunately, there are no clues to be found.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0x574b50" />
+    </children>
+  </item>
+  <item nodeId="node-0x574b50">
+    <command xml:space="preserve">x chairs</command>
+    <result xml:space="preserve">You check each chair for anything that might have fallen out of the guards&quot; pockets. On one chair, you find a pack of cigaretts. You pocket the pack.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="29">YES</temporary>
+    <children>
+      <child nodeId="node-0xecd7e30" />
+    </children>
+  </item>
+  <item nodeId="node-0xecd7e30">
+    <command xml:space="preserve">x cigarette pack</command>
+    <result xml:space="preserve">&quot;Hey, you found cigarettes! Mind sharing?&quot; asks Roy.
+
+You&apos;ll have to say which compass direction to go in.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="28">YES</temporary>
   </item>
 </Skein>
