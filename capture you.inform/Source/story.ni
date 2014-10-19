@@ -1,37 +1,42 @@
 "capture you" by Nicole Baptist
 
+[whenever I play through this, all I can think is:	http://www.youtube.com/watch?v=vCuB_PrQJMA ]
+
+When play begins: say "You are known to be a highly-skilled female agent, and are therefore given the task of capturing the head of an organization that is threatening the people of Aerugo. After you and your teammate, Roy Zakarius, have successfully taken care of the entrance guards and picking the front door lock, you must make your way through  the HQ to the center, where the boss is located."
+
 Roy Zakarius is a man. The description is "Roy Zakarius is your (flirtatious) colleague."
 
 Understand "Roy" as Roy Zakarius.
 
 Understand "Zakarius" as Roy Zakarius.
 
-[[from Mrs. Kiang's...]
-Every turn:
-	if the location of Roy Zakarius is not the location of the player:
-		let the way be the best route from the location of Roy Zakarius to the location of the player, using doors;
-		try Roy Zakarius going the way;
-	otherwise:
-		say "You wanna just go and get dinner now?";
-	end if.]
-	
+[from Mrs. Kiang...]
 Every turn: 
-	if the location of Roy Zakarius is not the location of the player: 
-		let the way be the best route from the location of Roy Zakarius to the location of the player, using doors; 
-		try Roy Zakarius going the way; 
-	otherwise: 
-		say "'Do you wanna just...go get dinner now?' says Roy.";
-
+	if Roy is not visible: 
+		move Roy to the location of the player; 
+		say "Roy follows you here.";
+	[otherwise:
+		say "'Do you wanna just go get something to eat? My treat~' says Roy.";
+		
+		above: deemed unnecessary, but I'll keep it just in case.]
 	
-Entrance is a room. 
+Entrance is a room. The description is "A petite room with black and white checkerboard-style tiles, and grey walls. There is a plant on either side of the doorway, and a three narrow windows. The exit is to the north."
 
-I is north of entrance.
+Plants are scenery in entrance. They are fixed in place. 
 
-II is west of I.
+Instead of examining plants: say "Two small potted plants. After checking the pots, you discover a bit! You put the bit in your pocket."; Now the player carries bit.
 
-III is west of II.
+Bit is a thing. The description is "It looks like it'd fit into something through the process of combining..."
 
-IV room is north of III. The description is "What appears to be the guards' break room. A simple, clean room with a few tables and chairs for the base's security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet."
+Understand "plant" as plants.
+
+I is north of entrance. The description is "You listen through the door to make sure no one's guarding thethe other side. . .Nope. You carefully slip past the threshold into the first room. It is The exit is to the west and back south."
+
+II is west of I. The description is "The exit is to the west and back east."
+
+III is west of II. The description is "The exit is to the north and back east."
+
+IV room is north of III. The description is "What appears to be the guards' break room. A simple, clean room with a few tables and chairs for the base's security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet. The exit is back south."
 
 Tables are a thing in IV. They are fixed in place. The description is "You scan the tables to check for any clues the guards carelessly left behind. Unfortunately, there are no clues to be found."
 
@@ -39,10 +44,10 @@ Understand "table" as tables.
 
 Understand "chair" as chairs.
 
-Chairs are a thing in IV. They are fixed in place. The description is "You check each chair for anything that might have fallen out of the guards' pockets. On one chair, you find a pack of cigaretts. 'Hey, you found cigarettes! Mind sharing?' asks Roy, as he grabs hold of the cigarette pack...along with your hand holding it. It appears you must give him a cigarette before he releases your hand."
-	The player now holds the pack of cigarettes.
+Chairs are a thing in IV. They are fixed in place. 
+	Instead of examining chairs: say "You check each chair for anything that might have fallen out of the guards' pockets. On one chair, you find a pack of cigaretts. 'Hey, you found cigarettes! Mind sharing?' asks Roy, as he grabs hold of the cigarette pack...along with your hand holding the pack. It appears you must give him a cigarette before he releases your hand."; Now the player carries cigarette pack.
 
-Cigarette pack is a scenery in IV. The description is "'WHAT?! WHAT THE HEAK ARE THOSE M&Ms DOING IN THERE?' Roy releases your hand in favor of throwing his hands above his head in frustration.  You look at Roy, a blank expression plastered on your face. You see a Red M&M, a blue M&M, and a green M&M."
+Cigarette pack is a thing. The description is "'WHAT?! WHAT THE HEAK ARE THOSE M&Ms DOING IN THERE?' Roy releases you in favor of throwing his hands above his head in frustration.  You look at Roy, a blank expression plastered on your face. You see a green M&M, a blue M&M, and a red M&M."
 
 Understand "open [cigarette pack]" as examining.
 
@@ -52,23 +57,25 @@ Green M&M is scenery in IV. The description is "A green M&M with a bold 2 carved
 
 Blue M&M is scenery in IV. The description is "A blue M&M with a bold 3 carved into it."
 
-[Working on this...
+Instead of eating red M&M: say "Yeah, no. This M&M has obviously been man-handled and is clearly unsanitary."
 
-Instead of eating red M&M say: "Yeah, no. This M&M has obviously been man-handled."
+Instead of eating green M&M: say "Yeah, no. This M&M has obviously been man-handled and is clearly unsanitary."
 
-Instead of eating green M&M say: "Yeah, no. This M&M has obviously been man-handled."
-
-Instead of eating blue M&M say: "Yeah, no. This M&M has obviously been man-handled."]
+Instead of eating blue M&M: say "Yeah, no. This M&M has obviously been man-handled and is clearly unsanitary."
 
 Counter is scenery in IV. It is fixed in place. The description is "A marble counter. On top of it are stacks of disposable, heat-resistant cups, two coffee machines, napkins, a tub of marshmallows, and a mysterious, opened soup can."
 
-Soup can is a thing. The description is "'Where's the label?' asks Roy. As he nears the counter to inspect the can, he trips on your foot and goes crashing into the counter, knocking the soup can onto the floor. You should pick it up and check the floor to make sure you didn't make a mess. The guards can't know you've been here."
+Soup can is a scenery in IV. The description is "'Where's the label?' asks Roy. As he nears the counter to inspect the can, he trips on your foot and goes crashing into the counter, knocking the soup can onto the floor. He picks it up, but you should check the floor to make sure he didn't make a mess. The guards can't know you've been here."
 
-Floor is  scenery in IV. The description is "You don't see any spillage, but you do spot a piece of paper lying on the floor."
+Understand "can" as soup can.
 
-Piece of paper is a thing. The description is "What appears to be the torn-off label from the soup can. You turn it over and see letters on the back. On one side are the letters G and B, while the letter R is on the other end of the tear. You put the paper in your pocket."
-	The player now holds the piece of paper.
+Instead of taking soup can: say "You'll need to leave this here. If you take it, the guards might realize your presence."
 
+Floor is  scenery in IV.
+	Instead of examining the floor: say "You don't see any spillage, but you do spot a piece of paper lying on the floor. You pick up the paper."; Now the player carries piece of paper.
+
+Piece of paper is a thing. The description is "What appears to be the torn-off label from the soup can. You turn it over and see numbers on the back. It reads '507'."; 
+	
 Understand "paper" as piece of paper.
 
 V is south of III.
@@ -77,4 +84,34 @@ VI is east of V.
 
 VII is north of VI.
 
-VIII is north of VII.
+Corner table is a thing in VII. The description is "A simple corner table with a flower pot on top."
+
+Understand "table" as corner table.
+
+Flower pot is a thing in VII. The description is "A pot holding a ___. It seems unbalanced, as if something is awkwardly lifting one side."
+
+Instead of looking under flower pot: say "You find a pin! You pocket the pin."; Now the player carries pin.
+
+Pin is a thing. The description is "It has a pocket that something can be inserted in through combining."
+
+[got this from Marissa's]
+Combining it with is an action applying to two things.
+Understand "combine [something] with [something]" as combining it with.
+
+Instead of combining bit with pin: say "You fit the bit into the pin and voila! Now you have a key!";
+	Now the player carries key;
+	Remove bit from play;
+	Remove pin from play.
+	
+Instead of combining pin with bit: say "You fit the bit into the pin and voila! Now you have a key!";
+	Now the player carries key;
+	Remove bit from play;
+	Remove pin from play.
+	
+Key is a thing. The description is "Use it to unlock something..."
+
+[from Inform handbook]
+Boss door is north of the VII and south of VIII. Boss door is a door. Boss door is scenery.
+Boss door is lockable and locked. Key unlocks boss door.
+
+VIII is north of boss door.
