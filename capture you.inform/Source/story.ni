@@ -2,6 +2,12 @@
 
 [whenever I play through this, all I can think is:	http://www.youtube.com/watch?v=vCuB_PrQJMA	You won't regret playing it.]
 
+[figured this out with the recipe book]
+Rule for deciding whether all includes scenery: it does not.
+Rule for deciding whether all includes people: it does not.
+Rule for deciding whether all includes things: it does not.
+Rule for deciding whether all includes containers: it does not.
+
 When play begins: say "You are known to be a highly-skilled female agent, and are therefore given the task of capturing the head of an organization that is threatening the people of Aerugo. Unfortuanately for you, Mr. Zakarius kind of-sort of lost your equipment on the way. After you and your teammate have successfully taken care of the entrance guards and picking the front door lock (and after you have successfully fumed for a full five minutes), you must make your way through  the temporary HQ to the center, where the boss is located."
 
 Roy Zakarius is a man. The description is "Roy Zakarius is your (flirtatious) colleague."
@@ -51,7 +57,7 @@ After spinning the closed lockers to 507: now the lockers are open; say "'CLICK'
 [-]
 
 II is west of I. The description is "The exit is to the west and back east."
-
+[HEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE]
 III is west of II. The description is "The exit is to the north and back east."
 
 IV room is north of III. The description is "What appears to be the guards' break room. A simple, clean room with a few tables and chairs for the base's security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet. The exit is back south."
@@ -95,7 +101,7 @@ Piece of paper is a thing. The description is "What appears to be the torn-off l
 	
 Understand "paper" as piece of paper.
 
-V is south of III. The description is "___. You see a section of the room blocked off by a rope."
+V is south of III. The description is "One of the walls is lined with computers-you assume that this is the makeshift HQ's research room. You see a 3D printer blocked off by a rope."
 
 [figured this out...]
 Rope is a thing. The description is "A thick rope that you can use to tie [bold type]something [roman type] up."
@@ -104,7 +110,23 @@ Understand "take [rope]" as examining.
 Instead of examining rope for the first time: say "You untie the rope from the poles and take it with you."; Now the player carries rope.
 [end: my "brilliance"]
 
-VI is east of V.
+3D printer is a thing in V. 
+Instead of examining 3D printer: say "There is a sign on it that reads, 'Only prints plastic swords. Use at your own risk.' There is a strange sound, and out pops a plastic sword."
+
+Understand "use [3D printer]" as examining.
+
+Plastic sword is a thing in V. It is undescribed. The description is "Extremely light-weight, and slightly bendable. You can probably crack it in half with your bare hands."
+
+Understand "sword" as plastic sword.
+
+VI is east of V. The description is "You and Roy peer in through the opening made by the slightly ajar door...and see a handful of guards! So that's where they all went! If only there were a way to distract them...maybe if you placed something by the door, its smell would get their attention..."
+
+[puzzle...I don't know why it's cake. I don't even like cake that much.]
+Instead of dropping cake: 
+	If player is in VI: 
+		say "You drop the cake and hide. The guards notice right away the delectable scent, and near the door to investigate. One of them steps forward, 'Hey! My slice of cake! Actually, guys, isn't it lunch time?' The guards take off to room IV."; 
+		Remove cake from play.
+	[need to figure out how to keep player from advancing if they aren't holding the cake...then I'll also need to change it back when the guards are gone...hmm...]
 
 VII is north of VI.
 
@@ -136,11 +158,25 @@ Instead of combining pin with bit: say "You fit the bit into the pin and voila! 
 Key is a thing. The description is "Use it to unlock something..."
 
 [from Inform handbook because my code, unfortunately, didn't work ;-; ]
-Boss door is north of the VII and south of VIII. Boss door is a door. Boss door is scenery.
-Boss door is lockable and locked. Key unlocks boss door.
+Final door is north of the VII and south of VIII. Final door is a door. Final door is scenery.
+Final door is lockable and locked. Key unlocks final door.
 
-VIII is north of boss door. The description is "Together, you and Zakarius burst through the door into the boss' room, and run to restrain him. (Fortunately for you, the guards are, apparently, still occupied.) The boss laughs (a rather disgusting laugh) and smiles. 'Ah, I knew the military'd send someone for me someday...I just didn't expect you lot to find me so soon.' You and Roy look at each other, remembering your mission: to bring Mr. Boss back alive for questioning."
+Understand "door" as final door.
+
+VIII is north of final door. The description is "Together, you and Zakarius burst through the door into the boss' room, and run to restrain him. (Fortunately for you, the guards are, apparently, still occupied.) The boss laughs (a rather disgusting laugh) and smiles. 'Ah, I knew the military'd send someone for me someday...I just didn't expect you lot to find me so soon.' You and Roy look at each other, remembering your mission: to bring Mr. Boss back alive for questioning."
+
+The boss is a man in VIII. The description is "A fat man with a wonky face."
+
+Understand "boss" as the boss.
 
 [BOSS BATTLE OKAY! :DDD]
 
+[hooray for figuring stuff out]
+Instead of attacking the boss:
+	If the player is carrying plastic sword:
+		say "You whack the boss in the head, knocking him out."
+
+Understand "hit [the boss]" as attacking.	
+
+[Need to figure out how to tie up the boss/handcuff him]
 
