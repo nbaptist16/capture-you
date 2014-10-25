@@ -40,7 +40,7 @@ I is north of entrance. The description is "You listen through the door to make 
 
 The lockers are scenery in I. The description is "A simple set of lockers. To open them you must spin the dial to the correct number.		(Hint: when entering the numbers, type them in as a single number.)"
 
-Handcuffs are a thing. The description is "A pair of handcuffs. Roy has the cuff key."
+Handcuffs are a thing. The description is "A pair of handcuffs. Roy has the cuff key. You can[bold type] use them on[roman type] something."
 
 Piece of cake is a thing. The description is "It smells delicious. So good, that it could distract one from doing work."
 Understand "cake" as piece of cake.
@@ -104,8 +104,8 @@ Understand "paper" as piece of paper.
 V is south of III. The description is "One of the walls is lined with computers-you assume that this is the makeshift HQ's research room. You see a 3D printer blocked off by a rope."
 
 [figured this out...]
-Rope is a thing. The description is "A thick rope that you can use to tie [bold type]something [roman type] up."
-Rope is scenery in V. The description is "A thick rope that you can use to tie [bold type]something [roman type] up."
+Rope is a thing. The description is "A thick rope that you can tie [bold type]to [roman type] something."
+Rope is scenery in V. The description is "A thick rope that you can tie [bold type]to [roman type] something."
 Understand "take [rope]" as examining.
 Instead of examining rope for the first time: say "You untie the rope from the poles and take it with you."; Now the player carries rope.
 [end: my "brilliance"]
@@ -174,9 +174,23 @@ Understand "boss" as the boss.
 [hooray for figuring stuff out]
 Instead of attacking the boss:
 	If the player is carrying plastic sword:
-		say "You whack the boss in the head, knocking him out."
+		say "You whack the boss in the head, knocking him out. You and Zakarius easily drag him back to HQ.";
+		end the story finally.
 
 Understand "hit [the boss]" as attacking.	
 
 [Need to figure out how to tie up the boss/handcuff him]
 
+[Understand "tie [the boss] up with [rope]" as tying.]
+
+Instead of tying rope to the boss:
+	Now rope is part of the boss;
+	Say "You tie the boss up, making it easy for you and Zakarius to drag him back to HQ.";
+	End the story finally.
+
+Instead of tying handcuffs to boss:
+	Now handcuffs are part of the boss;
+	Say "You handcuff the boss, making it easy for you and Zakarius to drag him back to HQ.";
+	End the story finally.
+	
+Understand "use [handcuffs] on [something]" as tying it to.
