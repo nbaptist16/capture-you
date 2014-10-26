@@ -145,15 +145,23 @@ Instead of eating cake:
 Hallway door is north of VI and south of VII. Hallway door is a door. Hallway door is scenery. 
 
 Guards are a thing in VI. The description is "A group of guards in full gear. Better not mess with them..."
-[
+
 [puzzle...I don't know why it's cake. I don't even like cake that much.]
 Instead of dropping cake for the first time: 
 	If player is in VI:
 		say "You drop half of the piece of cake and hide. The guards notice right away the delectable scent, and near the door to investigate. One of them steps forward, 'Hey! My slice of cake! Actually, guys, isn't it lunch time?' The guards take off to room IV, and you and Roy enter the code (RGB) to sneak off to the next room."; 
 		remove cake from play;
-		remove guards from play;
-		move the player to VII.
-]	
+		remove guards from play.	
+
+[with help from senpai]
+Before going to VII:
+	If guards is in VI:
+		say "Despite your and Roy`s exceptional skill, you don`t think you can take all of these guys at once...especially when they each have all of that equipment...";
+		stop the action;
+	If guards not in VI:
+		say "That's one heck of a piece of cake...apparently the guards are still distracted.";
+		continue the action;
+		
 [so the this is what I'm having trouble with...
 Instead of going north from VI:
 	If something is in VI;
