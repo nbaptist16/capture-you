@@ -1,5 +1,12 @@
 "Capture You" by Nicole Baptist
 
+The release number is 1.
+The story creation year is 2014.
+The story headline is "SECRET AGENTS YES[line break]".
+The story genre is "Adventure (I suppose)".
+
+[Release along with cover art.]
+
 [whenever I play through this, all I can think is:	http://www.youtube.com/watch?v=vCuB_PrQJMA	You won't regret playing it.]
 
 [figured this out with the recipe book]
@@ -8,7 +15,10 @@ Rule for deciding whether all includes people: it does not.
 Rule for deciding whether all includes things: it does not.
 Rule for deciding whether all includes containers: it does not.
 
+
 When play begins: say "You are known to be a highly-skilled female agent, and are therefore given the task of capturing the head of an organization that is threatening the people of Aerugo. Unfortuanately for you, Mr. Zakarius kind of-sort of lost your equipment on the way. After you and your teammate have successfully taken care of the entrance guards and picking the front door lock (and after you have successfully fumed for a full five minutes), you must make your way through  the temporary HQ to the center, where the boss is located."
+
+The description of the player is "'Lookin` mighty fine today, special agent' says Roy."
 
 Roy Zakarius is a man. The description is "Roy Zakarius is your (flirtatious) colleague."
 
@@ -36,11 +46,11 @@ Plants are scenery in entrance. They are fixed in place.
 
 Instead of examining plants: say "Two small potted plants. After checking the pots, you discover a bit! You put the bit in your pocket."; Now the player carries bit.
 
-Bit is a thing. The description is "It looks like it'd fit into something through the process of combining..."
+Bit is a thing. The description is "It looks like it`d fit into something through the process of combining..."
 
 Understand "plant" as plants.
 
-I is north of entrance. The description is "You listen through the door to make sure no one's guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. The exit is to the west and back south."
+I is north of entrance. The description is "You listen through the door to make sure no one`s guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. The exit is to the west and back south."
 
 The lockers are scenery in I. The description is "A simple set of lockers. To open them you must spin the dial to the correct number.		(Hint: when entering the numbers, type them in as a single number.)"
 
@@ -60,13 +70,24 @@ Understand "spin [something] to [a number]" as spinning it to.
 After spinning the closed lockers to 507: now the lockers are open; say "'CLICK' The lockers are now unlocked. You can see [a list of things in lockers]."
 [-]
 
-II is west of I. The description is "The exit is to the west and back east."
-[NEEDS DESCRIPTION, KINDA JUST DISREGARD THIS ROOM FOR NOW...]
+II is west of I. The description is "What looks like a meeting room...there are a few seats, a desk, and a whiteboard/projector screen. The exit is to the west and back east."
 
-III is west of II. The description is "The exit is to the north and back east."
-[NEEDS DESCRIPTION, KINDA JUST DISREGARD THIS ROOM FOR NOW...]
+Seats are a thing in II. They are fixed in place. The description is "Very fancy seats..."
+Understand "seat" as seats.
 
-IV is north of III. The description is "What appears to be the guards` break room. A simple, clean room with a few tables and chairs for the base's security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet. The exit is back south."
+Desk is a thing in II. It is fixed in place. The description is "Fancy table..."
+
+White board is a thing in II. It is fixed in place. The description is "It has a really nice hawk drawing on it with 'A.L.C.O.' written beneath it."
+
+III is west of II. The description is "A rather empty storage room. Hmm. Must be one of their newer hideouts. The exit is to the north and back east."
+
+Boxes are a container in III. They is openable and closed. The description is "A few boxes that the orginization must`ve used to move in all their stuff. They`ve all already been opened, so most of the stuff must have been unpacked."
+Understand "box" as boxes.
+
+Computer Science for Dummies book is a thing in boxes. The description is "Huh. Interesting. You don't know how much this'd be of help, though, since you are already quite fluent in java, ruby, and python."
+Understand "book" as computer science for dummies book.
+
+IV is north of III. The description is "What appears to be the guards` break room. A simple, clean room with a few tables and chairs for the base`s security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet. The exit is back south."
 
 Tables are a thing in IV. They are fixed in place. The description is "You scan the tables to check for any clues the guards carelessly left behind. Unfortunately, there are no clues to be found."
 
@@ -75,7 +96,7 @@ Understand "table" as tables.
 Understand "chair" as chairs.
 
 Chairs are a thing in IV. They are fixed in place. 
-	Instead of examining chairs: say "You check each chair for anything that might have fallen out of the guards' pockets. On one chair, you find a pack of cigarettes with an R, a G, and a B written on the outside. Maybe it`s a code to unlock something? 'Hey, you found cigarettes! Mind sharing?' asks Roy, as he grabs hold of the cigarette pack...along with your hand holding the pack. It appears you must give him a cigarette before he releases your hand. Strangely, it feels awfully light. Maybe you should check inside?"; Now the player carries cigarette pack.
+	Instead of examining chairs: say "You check each chair for anything that might have fallen out of the guards` pockets. On one chair, you find a pack of cigarettes with an R, a G, and a B written on the outside. Maybe it`s a code to unlock something? 'Hey, you found cigarettes! Mind sharing?' asks Roy, as he grabs hold of the cigarette pack...along with your hand holding the pack. It appears you must give him a cigarette before he releases your hand. Strangely, it feels awfully light. Maybe you should check inside?"; Now the player carries cigarette pack.
 
 Cigarette pack is a thing. The description is "'WHAT?! WHAT THE HEAK ARE THOSE M&Ms DOING IN THERE?' Roy releases you in favor of throwing his hands above his head in frustration.  You look at Roy, a blank expression plastered on your face. You see a green M&M, a blue M&M, and a red M&M."
 
@@ -92,18 +113,44 @@ Instead of eating red M&M: say "Yeah, no. This M&M has obviously been man-handle
 Instead of eating green M&M: say "Yeah, no. This M&M has obviously been man-handled and is clearly unsanitary."
 Instead of eating blue M&M: say "Yeah, no. This M&M has obviously been man-handled and is clearly unsanitary."
 
-Counter is scenery in IV. It is fixed in place. The description is "A marble counter. On top of it are stacks of disposable, heat-resistant cups, two coffee machines, napkins, a tub of marshmallows, and a mysterious, opened soup can."
+Counter is scenery in IV. It is fixed in place. The description is "A marble counter. On top of it are stacks of cups, two coffee machines, napkins, a tub of marshmallows, and a mysterious, opened soup can."
 
-Soup can is a scenery in IV. The description is "'Where's the label?' asks Roy. As he nears the counter to inspect the can, he trips on your foot and goes crashing into the counter, knocking the soup can onto the floor. He picks it up, but you should check the floor to make sure he didn't make a mess. The guards can't know you've been here."
+Cups are a thing in IV. They are undescribed. They are fixed in place. The description is "Disposable heat-resistant cups"
+
+Understand "cup" as cups.
+
+Instead of taking cups, say "A stack of cups...however, you don't think you`ll need them for this mission, so you decide to leave them."
+
+Coffee machines are a thing in IV. They are fixed in place. They are undescribed. The description is "Two kick-ass coffee machines...too bad you don't like coffee..."
+
+Understand "coffee machine" as coffee machines.
+Understand "machine" as coffee machines.
+Understand "machines" as coffee machines.
+
+Instead of taking coffee machines, say "I know you`re a super agent and all, but how do you plan to be all stealthy-like if you`ve got those two silly machines in your arms?"
+
+Marshmallows are a thing in IV. They are edible. They are undescribed. The description is "Ity-bity marshmallows to put in your...coffee? Alright then..."
+
+Understand "tub of marshmallows" as marshmallows.
+
+Instead of eating marshmallows:
+	say "Yum...you haven`t had marshmallows since...middle school!";
+	remove marshmallows from play.
+	
+Instead of taking marshmallows:
+	say "Yum...you haven`t had marshmallows since...middle school!";
+	remove marshmallows from play.
+
+Soup can is a scenery in IV. The description is "'Where`s the label?' asks Roy. As he nears the counter to inspect the can, he trips on your foot and goes crashing into the counter, knocking the soup can onto the floor. He picks it up, but you should check the floor to make sure he didn`t make a mess. The guards can`t know you`ve been here."
 
 Understand "can" as soup can.
 
-Instead of taking soup can: say "You'll need to leave this here. If you take it, the guards might realize your presence."
+Instead of taking soup can: say "You`ll need to leave this here. If you take it, the guards might realize your presence."
 
 Floor is  scenery in IV.
-	Instead of examining the floor: say "You don't see any spillage, but you do spot a piece of paper lying on the floor. You pick up the paper."; Now the player carries piece of paper.
+	Instead of examining the floor: say "You don`t see any spillage, but you do spot a piece of paper lying on the floor. You pick up the paper."; Now the player carries piece of paper.
 
-Piece of paper is a thing. The description is "What appears to be the torn-off label from a spaghetti-o's can. You turn it over and see numbers on the back. It reads '507'."; 
+Piece of paper is a thing. The description is "What appears to be the torn-off label from a spaghetti-o`s can. You turn it over and see numbers on the back. It reads '507'."; 
 	
 Understand "paper" as piece of paper.
 
@@ -113,7 +160,7 @@ Understand "RGB" as cigarette pack.
 
 Understand "RGB code" as cigarette pack.
 
-V is south of III. The description is "One of the walls is lined with computers-you assume that this is the makeshift HQ's research room. You see a 3D printer blocked off by a rope."
+V is south of III.The description is "One of the walls is lined with computers-you assume that this is the makeshift HQ`s research room. You see a 3D printer blocked off by a rope."
 
 [figured this out...]
 Rope is a thing. The description is "A thick rope that you can tie [bold type]to [roman type] something."
@@ -131,15 +178,14 @@ Plastic sword is a thing in V. It is undescribed. The description is "Extremely 
 
 Understand "sword" as plastic sword.
 
-[need the "if unvisited" part to change to "if VII unvisited" but it doesn't work that way...]
-VI is east of V. The description is "A spacious room. [if unvisited] All of the guards are gathered here. You can't let them see you, as you can`t let yourself get caught. Maybe you can get them out of here if you dropped something... [end if]"
+VI is east of V. The description is "A spacious room. [if unvisited] All of the guards are gathered here. You can`t let them see you, as you can`t let yourself get caught. Maybe you can get them out of here if you dropped something... [end if]"
 
 After entering VI:
 	If player is not carrying piece of cake:
-		say "You and Roy peer in through the opening made by the slightly ajar door...and see a handful of guards! So that's where they all went! If only there were a way to distract them...maybe if you placed something, it`s smell would get their attention..."
+		say "You and Roy peer in through the opening made by the slightly ajar door...and see a handful of guards! So that`s where they all went! If only there were a way to distract them...maybe if you placed something, it`s smell would get their attention..."
 
 Instead of eating cake:
-	say "You have eaten before you came here, so you don't need to worry about the cake."
+	say "You have eaten before you came here, so you don`t need to worry about the cake."
 
 [MY GENIUS: the result of many failures...see below...]
 Hallway door is north of VI and south of VII. Hallway door is a door. Hallway door is scenery. 
@@ -149,7 +195,7 @@ Guards are a thing in VI. The description is "A group of guards in full gear. Be
 [puzzle...I don't know why it's cake. I don't even like cake that much.]
 Instead of dropping cake for the first time: 
 	If player is in VI:
-		say "You drop half of the piece of cake and hide. The guards notice right away the delectable scent, and near the door to investigate. One of them steps forward, 'Hey! My slice of cake! Actually, guys, isn't it lunch time?' The guards take off to room IV, and you and Roy enter the code (RGB) to sneak off to the next room."; 
+		say "You drop half of the piece of cake and hide. The guards notice right away the delectable scent, and near the door to investigate. One of them steps forward, 'Hey! My slice of cake! Actually, guys, isn`t it lunch time?' The guards take off to room IV, and you and Roy enter the code (RGB) to sneak off to the next room."; 
 		remove cake from play;
 		remove guards from play.	
 
@@ -159,7 +205,7 @@ Before going to VII:
 		say "Despite your and Roy`s exceptional skill, you don`t think you can take all of these guys at once...especially when they each have all of that equipment...";
 		stop the action;
 	If guards not in VI:
-		say "That's one heck of a piece of cake...apparently the guards are still distracted.";
+		say "That`s one heck of a piece of cake...apparently the guards are still distracted.";
 		continue the action;
 		
 [so the this is what I'm having trouble with...
@@ -230,8 +276,11 @@ Understand "drop [cake]" as unlocking hallway door.
 
 Hallway door is a door. Hallway door is north of VI and south of VII. Hallway door is scenery. Hallway door is lockable and locked. Piece of cake unlocks hallway door.]
 	
-VII is north of hallway door. The description is "A simple hallway. The exit is back south and to the north."
-[NEEDS DESCRIPTION, KINDA JUST DISREGARD THIS ROOM FOR NOW...]
+VII is north of hallway door. The description is "A simple hallway. There were a few windows, but they are now blocked up. The exit is back south and to the north."
+
+Tinted windows are scenery in VII. The description is "They have been tinted. You suspect it`s because they can't have people outside seeing the guards running around in here, less they get caught or something..."
+
+Understand "windows" as tinted windows.
 
 Corner table is a thing in VII. The description is "A simple corner table with a flower pot on top."
 
@@ -266,7 +315,7 @@ Final door is lockable and locked. Key unlocks final door.
 
 Understand "door" as final door.
 
-VIII is north of final door. The description is "Together, you and Zakarius burst through the door into the boss' room, and run to restrain him. (Fortunately for you, the guards are, apparently, still occupied.) The boss laughs (a rather disgusting laugh) and smiles. 'Ah, I knew the military'd send someone for me someday...I just didn't expect you lot to find me so soon.' You and Roy look at each other, remembering your mission: to bring Mr. Boss back alive for questioning."
+VIII is north of final door. The description is "Together, you and Zakarius burst through the door into the boss` room, and run to restrain him. (Fortunately for you, the guards are, apparently, still occupied.) The boss laughs (a rather disgusting laugh) and smiles. 'Ah, I knew the military`d send someone for me someday...I just didn`t expect you lot to find me so soon.' You and Roy look at each other, remembering your mission: to bring Mr. Boss back alive for questioning."
 
 The boss is a man in VIII. The description is "A fat man with a wonky face."
 

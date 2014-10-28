@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x48c900" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0xc8573b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x2a32e0" />
-  <item nodeId="node-0x48c900">
+  <activeNode nodeId="node-0x158a4180" />
+  <item nodeId="node-0xc8573b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -10,24 +10,27 @@
 You are known to be a highly-skilled female agent, and are therefore given the task of capturing the head of an organization that is threatening the people of Aerugo. Unfortuanately for you, Mr. Zakarius kind of-sort of lost your equipment on the way. After you and your teammate have successfully taken care of the entrance guards and picking the front door lock (and after you have successfully fumed for a full five minutes), you must make your way through  the temporary HQ to the center, where the boss is located.
 
 Capture You
-An Interactive Fiction by Nicole Baptist
-Release 1 / Serial number 141026 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
+SECRET AGENTS YES
+ by Nicole Baptist
+Release 1 / Serial number 141028 / Inform 7 build 6L38 (I6/v6.33 lib 6/12N) SD
 
 Entrance
 A petite room with black and white checkerboard-style tiles, and grey walls. There is a plant on either side of the doorway, and three narrow windows. The exit is to the north.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="59">NO</temporary>
+    <changed>YES</changed>
+    <temporary score="214">NO</temporary>
     <children>
-      <child nodeId="node-0x493100" />
-      <child nodeId="node-0x492140" />
-      <child nodeId="node-0x491a40" />
-      <child nodeId="node-0x48c9a0" />
+      <child nodeId="node-0xc85dfa0" />
+      <child nodeId="node-0xc85cbf0" />
+      <child nodeId="node-0xbfa83b0" />
+      <child nodeId="node-0xc85c4f0" />
+      <child nodeId="node-0x158a4180" />
+      <child nodeId="node-0xc857450" />
     </children>
   </item>
-  <item nodeId="node-0x48c9a0">
+  <item nodeId="node-0xc857450">
     <command xml:space="preserve">x plant</command>
     <result xml:space="preserve">Two small potted plants. After checking the pots, you discover a bit! You put the bit in your pocket.
 
@@ -36,14 +39,14 @@ Roy follows you here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="206">YES</temporary>
+    <temporary score="213">YES</temporary>
     <children>
-      <child nodeId="node-0x490c40" />
-      <child nodeId="node-0x48fe40" />
-      <child nodeId="node-0x48ca10" />
+      <child nodeId="node-0xc85b6f0" />
+      <child nodeId="node-0xc85a8f0" />
+      <child nodeId="node-0xc8574c0" />
     </children>
   </item>
-  <item nodeId="node-0x48ca10">
+  <item nodeId="node-0xc8574c0">
     <command xml:space="preserve">x roy</command>
     <result xml:space="preserve">Roy Zakarius is your (flirtatious) colleague.
 
@@ -52,10 +55,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ca80" />
+      <child nodeId="node-0xc857530" />
     </children>
   </item>
-  <item nodeId="node-0x48ca80">
+  <item nodeId="node-0xc857530">
     <command xml:space="preserve">make love to roy</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -64,10 +67,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48cb30" />
+      <child nodeId="node-0xc8575e0" />
     </children>
   </item>
-  <item nodeId="node-0x48cb30">
+  <item nodeId="node-0xc8575e0">
     <command xml:space="preserve">touch roy</command>
     <result xml:space="preserve">Roy Zakarius might not like that.
 
@@ -76,10 +79,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48cb90" />
+      <child nodeId="node-0xc857640" />
     </children>
   </item>
-  <item nodeId="node-0x48cb90">
+  <item nodeId="node-0xc857640">
     <command xml:space="preserve">Touch roy</command>
     <result xml:space="preserve">Roy Zakarius might not like that.
 
@@ -88,10 +91,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48cc00" />
+      <child nodeId="node-0xc8576b0" />
     </children>
   </item>
-  <item nodeId="node-0x48cc00">
+  <item nodeId="node-0xc8576b0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Bit
@@ -101,10 +104,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ccf0" />
+      <child nodeId="node-0xc8577a0" />
     </children>
   </item>
-  <item nodeId="node-0x48ccf0">
+  <item nodeId="node-0xc8577a0">
     <command xml:space="preserve">x bit</command>
     <result xml:space="preserve">It looks like it&apos;d fit into something through the process of combining...
 
@@ -113,30 +116,30 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48cd40" />
+      <child nodeId="node-0xc8577f0" />
     </children>
   </item>
-  <item nodeId="node-0x48cd40">
+  <item nodeId="node-0xc8577f0">
     <command xml:space="preserve">combine bit with Roy</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48cd90" />
+      <child nodeId="node-0xc857840" />
     </children>
   </item>
-  <item nodeId="node-0x48cd90">
+  <item nodeId="node-0xc857840">
     <command xml:space="preserve">combine bit with plant</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ce00" />
+      <child nodeId="node-0xc8578b0" />
     </children>
   </item>
-  <item nodeId="node-0x48ce00">
+  <item nodeId="node-0xc8578b0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Bit
@@ -146,10 +149,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ce70" />
+      <child nodeId="node-0xc857920" />
     </children>
   </item>
-  <item nodeId="node-0x48ce70">
+  <item nodeId="node-0xc857920">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Entrance
 A petite room with black and white checkerboard-style tiles, and grey walls. There is a plant on either side of the doorway, and three narrow windows. The exit is to the north.
@@ -161,10 +164,10 @@ You can see Roy Zakarius here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48cfa0" />
+      <child nodeId="node-0xc857a50" />
     </children>
   </item>
-  <item nodeId="node-0x48cfa0">
+  <item nodeId="node-0xc857a50">
     <command xml:space="preserve">x tile</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -173,10 +176,10 @@ You can see Roy Zakarius here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48cc90" />
+      <child nodeId="node-0xc857740" />
     </children>
   </item>
-  <item nodeId="node-0x48cc90">
+  <item nodeId="node-0xc857740">
     <command xml:space="preserve">x tiles</command>
     <result xml:space="preserve">Simple, expensive-looking tiles. Nothing suspicious.
 
@@ -185,10 +188,10 @@ You can see Roy Zakarius here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d010" />
+      <child nodeId="node-0xc857ac0" />
     </children>
   </item>
-  <item nodeId="node-0x48d010">
+  <item nodeId="node-0xc857ac0">
     <command xml:space="preserve">x walls</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -197,10 +200,10 @@ You can see Roy Zakarius here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d080" />
+      <child nodeId="node-0xc857b30" />
     </children>
   </item>
-  <item nodeId="node-0x48d080">
+  <item nodeId="node-0xc857b30">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 I
@@ -213,10 +216,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d0f0" />
+      <child nodeId="node-0xc857ba0" />
     </children>
   </item>
-  <item nodeId="node-0x48d0f0">
+  <item nodeId="node-0xc857ba0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Entrance
@@ -229,10 +232,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d160" />
+      <child nodeId="node-0xc857c10" />
     </children>
   </item>
-  <item nodeId="node-0x48d160">
+  <item nodeId="node-0xc857c10">
     <command xml:space="preserve">x windows</command>
     <result xml:space="preserve">You see a lot of trees. That is all.
 
@@ -241,10 +244,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d1d0" />
+      <child nodeId="node-0xc857c80" />
     </children>
   </item>
-  <item nodeId="node-0x48d1d0">
+  <item nodeId="node-0xc857c80">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -253,10 +256,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d240" />
+      <child nodeId="node-0xc857cf0" />
     </children>
   </item>
-  <item nodeId="node-0x48d240">
+  <item nodeId="node-0xc857cf0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 I
@@ -269,10 +272,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48cee0" />
+      <child nodeId="node-0xc857990" />
     </children>
   </item>
-  <item nodeId="node-0x48cee0">
+  <item nodeId="node-0xc857990">
     <command xml:space="preserve">x lockers</command>
     <result xml:space="preserve">A simple set of lockers. To open them you must spin the dial to the correct number.  (Hint: when entering the numbers, type them in as a single number.)
 
@@ -281,10 +284,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48cf30" />
+      <child nodeId="node-0xc8579e0" />
     </children>
   </item>
-  <item nodeId="node-0x48cf30">
+  <item nodeId="node-0xc8579e0">
     <command xml:space="preserve">1234</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -293,10 +296,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d430" />
+      <child nodeId="node-0xc857ee0" />
     </children>
   </item>
-  <item nodeId="node-0x48d430">
+  <item nodeId="node-0xc857ee0">
     <command xml:space="preserve">spin dial to 1234</command>
     <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
 
@@ -305,10 +308,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d4a0" />
+      <child nodeId="node-0xc857f50" />
     </children>
   </item>
-  <item nodeId="node-0x48d4a0">
+  <item nodeId="node-0xc857f50">
     <command xml:space="preserve">spin dial to 1111</command>
     <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
 
@@ -317,10 +320,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d510" />
+      <child nodeId="node-0xc857fc0" />
     </children>
   </item>
-  <item nodeId="node-0x48d510">
+  <item nodeId="node-0xc857fc0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -329,10 +332,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d580" />
+      <child nodeId="node-0xc858030" />
     </children>
   </item>
-  <item nodeId="node-0x48d580">
+  <item nodeId="node-0xc858030">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">I
 You listen through the door to make sure no one&apos;s guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. The exit is to the west and back south.
@@ -344,10 +347,10 @@ You can see Roy Zakarius here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d5f0" />
+      <child nodeId="node-0xc8580a0" />
     </children>
   </item>
-  <item nodeId="node-0x48d5f0">
+  <item nodeId="node-0xc8580a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 II
@@ -360,10 +363,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d660" />
+      <child nodeId="node-0xc858110" />
     </children>
   </item>
-  <item nodeId="node-0x48d660">
+  <item nodeId="node-0xc858110">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 III
@@ -376,10 +379,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d6d0" />
+      <child nodeId="node-0xc858180" />
     </children>
   </item>
-  <item nodeId="node-0x48d6d0">
+  <item nodeId="node-0xc858180">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 IV room
@@ -394,10 +397,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d740" />
+      <child nodeId="node-0xc8581f0" />
     </children>
   </item>
-  <item nodeId="node-0x48d740">
+  <item nodeId="node-0xc8581f0">
     <command xml:space="preserve">x tables</command>
     <result xml:space="preserve">You scan the tables to check for any clues the guards carelessly left behind. Unfortunately, there are no clues to be found.
 
@@ -406,10 +409,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d7b0" />
+      <child nodeId="node-0xc858260" />
     </children>
   </item>
-  <item nodeId="node-0x48d7b0">
+  <item nodeId="node-0xc858260">
     <command xml:space="preserve"> chairs</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -418,10 +421,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d820" />
+      <child nodeId="node-0xc8582d0" />
     </children>
   </item>
-  <item nodeId="node-0x48d820">
+  <item nodeId="node-0xc8582d0">
     <command xml:space="preserve">x chair</command>
     <result xml:space="preserve">You check each chair for anything that might have fallen out of the guards&quot; pockets. On one chair, you find a pack of cigarettes. &quot;Hey, you found cigarettes! Mind sharing?&quot; asks Roy, as he grabs hold of the cigarette pack...along with your hand holding the pack. It appears you must give him a cigarette before he releases your hand. Strangely, it feels awfully light. Maybe you should check inside?
 
@@ -430,10 +433,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d890" />
+      <child nodeId="node-0xc858340" />
     </children>
   </item>
-  <item nodeId="node-0x48d890">
+  <item nodeId="node-0xc858340">
     <command xml:space="preserve">make love to roy</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -442,10 +445,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d2b0" />
+      <child nodeId="node-0xc857d60" />
     </children>
   </item>
-  <item nodeId="node-0x48d2b0">
+  <item nodeId="node-0xc857d60">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -454,10 +457,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d320" />
+      <child nodeId="node-0xc857dd0" />
     </children>
   </item>
-  <item nodeId="node-0x48d320">
+  <item nodeId="node-0xc857dd0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -466,10 +469,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d390" />
+      <child nodeId="node-0xc857e40" />
     </children>
   </item>
-  <item nodeId="node-0x48d390">
+  <item nodeId="node-0xc857e40">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 III
@@ -482,10 +485,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48db40" />
+      <child nodeId="node-0xc8585f0" />
     </children>
   </item>
-  <item nodeId="node-0x48db40">
+  <item nodeId="node-0xc8585f0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 IV room
@@ -500,10 +503,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48dbb0" />
+      <child nodeId="node-0xc858660" />
     </children>
   </item>
-  <item nodeId="node-0x48dbb0">
+  <item nodeId="node-0xc858660">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">IV room
 What appears to be the guards` break room. A simple, clean room with a few tables and chairs for the base&apos;s security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet. The exit is back south.
@@ -515,10 +518,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48dc20" />
+      <child nodeId="node-0xc8586d0" />
     </children>
   </item>
-  <item nodeId="node-0x48dc20">
+  <item nodeId="node-0xc8586d0">
     <command xml:space="preserve">give roy cigarette</command>
     <result xml:space="preserve">Roy Zakarius doesn&apos;t seem interested.
 
@@ -527,10 +530,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48dc90" />
+      <child nodeId="node-0xc858740" />
     </children>
   </item>
-  <item nodeId="node-0x48dc90">
+  <item nodeId="node-0xc858740">
     <command xml:space="preserve">give roy cigarettes</command>
     <result xml:space="preserve">Roy Zakarius doesn&apos;t seem interested.
 
@@ -539,10 +542,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48dd00" />
+      <child nodeId="node-0xc8587b0" />
     </children>
   </item>
-  <item nodeId="node-0x48dd00">
+  <item nodeId="node-0xc8587b0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Cigarette pack
@@ -553,10 +556,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48dd70" />
+      <child nodeId="node-0xc858820" />
     </children>
   </item>
-  <item nodeId="node-0x48dd70">
+  <item nodeId="node-0xc858820">
     <command xml:space="preserve">give Roy Cigarette Pack</command>
     <result xml:space="preserve">Roy Zakarius doesn&apos;t seem interested.
 
@@ -565,10 +568,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48dde0" />
+      <child nodeId="node-0xc858890" />
     </children>
   </item>
-  <item nodeId="node-0x48dde0">
+  <item nodeId="node-0xc858890">
     <command xml:space="preserve">x counter</command>
     <result xml:space="preserve">A marble counter. On top of it are stacks of disposable, heat-resistant cups, two coffee machines, napkins, a tub of marshmallows, and a mysterious, opened soup can.
 
@@ -577,10 +580,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48de50" />
+      <child nodeId="node-0xc858900" />
     </children>
   </item>
-  <item nodeId="node-0x48de50">
+  <item nodeId="node-0xc858900">
     <command xml:space="preserve">take marshmellows</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -589,10 +592,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48dec0" />
+      <child nodeId="node-0xc858970" />
     </children>
   </item>
-  <item nodeId="node-0x48dec0">
+  <item nodeId="node-0xc858970">
     <command xml:space="preserve">take tub of marshmallows</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -601,10 +604,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48df30" />
+      <child nodeId="node-0xc8589e0" />
     </children>
   </item>
-  <item nodeId="node-0x48df30">
+  <item nodeId="node-0xc8589e0">
     <command xml:space="preserve">take marshmallows</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -613,10 +616,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48dfa0" />
+      <child nodeId="node-0xc858a50" />
     </children>
   </item>
-  <item nodeId="node-0x48dfa0">
+  <item nodeId="node-0xc858a50">
     <command xml:space="preserve">take napkins</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -625,10 +628,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e010" />
+      <child nodeId="node-0xc858ac0" />
     </children>
   </item>
-  <item nodeId="node-0x48e010">
+  <item nodeId="node-0xc858ac0">
     <command xml:space="preserve">take coffee machines</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -637,10 +640,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e080" />
+      <child nodeId="node-0xc858b30" />
     </children>
   </item>
-  <item nodeId="node-0x48e080">
+  <item nodeId="node-0xc858b30">
     <command xml:space="preserve">take cups</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -649,10 +652,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e0f0" />
+      <child nodeId="node-0xc858ba0" />
     </children>
   </item>
-  <item nodeId="node-0x48e0f0">
+  <item nodeId="node-0xc858ba0">
     <command xml:space="preserve">take soup can</command>
     <result xml:space="preserve">You&apos;ll need to leave this here. If you take it, the guards might realize your presence.
 
@@ -661,10 +664,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e160" />
+      <child nodeId="node-0xc858c10" />
     </children>
   </item>
-  <item nodeId="node-0x48e160">
+  <item nodeId="node-0xc858c10">
     <command xml:space="preserve">x soup can</command>
     <result xml:space="preserve">&quot;Where&apos;s the label?&quot; asks Roy. As he nears the counter to inspect the can, he trips on your foot and goes crashing into the counter, knocking the soup can onto the floor. He picks it up, but you should check the floor to make sure he didn&apos;t make a mess. The guards can&apos;t know you&apos;ve been here.
 
@@ -673,10 +676,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e1d0" />
+      <child nodeId="node-0xc858c80" />
     </children>
   </item>
-  <item nodeId="node-0x48e1d0">
+  <item nodeId="node-0xc858c80">
     <command xml:space="preserve">x floor</command>
     <result xml:space="preserve">You don&apos;t see any spillage, but you do spot a piece of paper lying on the floor. You pick up the paper.
 
@@ -685,10 +688,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e240" />
+      <child nodeId="node-0xc858cf0" />
     </children>
   </item>
-  <item nodeId="node-0x48e240">
+  <item nodeId="node-0xc858cf0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Piece of paper
@@ -700,10 +703,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d900" />
+      <child nodeId="node-0xc8583b0" />
     </children>
   </item>
-  <item nodeId="node-0x48d900">
+  <item nodeId="node-0xc8583b0">
     <command xml:space="preserve">x paper</command>
     <result xml:space="preserve">What appears to be the torn-off label from a spaghetti-o&apos;s can. You turn it over and see numbers on the back. It reads &quot;507&quot;.
 
@@ -712,10 +715,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d970" />
+      <child nodeId="node-0xc858420" />
     </children>
   </item>
-  <item nodeId="node-0x48d970">
+  <item nodeId="node-0xc858420">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">IV room
 What appears to be the guards` break room. A simple, clean room with a few tables and chairs for the base&apos;s security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet. The exit is back south.
@@ -727,10 +730,10 @@ You can see Roy Zakarius, Tables and Chairs here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48d9e0" />
+      <child nodeId="node-0xc858490" />
     </children>
   </item>
-  <item nodeId="node-0x48d9e0">
+  <item nodeId="node-0xc858490">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 III
@@ -743,10 +746,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48da50" />
+      <child nodeId="node-0xc858500" />
     </children>
   </item>
-  <item nodeId="node-0x48da50">
+  <item nodeId="node-0xc858500">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 II
@@ -759,10 +762,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48dac0" />
+      <child nodeId="node-0xc858570" />
     </children>
   </item>
-  <item nodeId="node-0x48dac0">
+  <item nodeId="node-0xc858570">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 I
@@ -775,10 +778,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e2b0" />
+      <child nodeId="node-0xc858d60" />
     </children>
   </item>
-  <item nodeId="node-0x48e2b0">
+  <item nodeId="node-0xc858d60">
     <command xml:space="preserve">spin dial to 507</command>
     <result xml:space="preserve">&quot;CLICK&quot; The lockers are now unlocked. You can see Handcuffs and Piece of cake.
 
@@ -787,10 +790,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e320" />
+      <child nodeId="node-0xc858dd0" />
     </children>
   </item>
-  <item nodeId="node-0x48e320">
+  <item nodeId="node-0xc858dd0">
     <command xml:space="preserve">eat piece of cake</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
@@ -799,10 +802,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e390" />
+      <child nodeId="node-0xc858e40" />
     </children>
   </item>
-  <item nodeId="node-0x48e390">
+  <item nodeId="node-0xc858e40">
     <command xml:space="preserve">take handcuffs</command>
     <result xml:space="preserve">Taken.
 
@@ -811,10 +814,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e400" />
+      <child nodeId="node-0xc858eb0" />
     </children>
   </item>
-  <item nodeId="node-0x48e400">
+  <item nodeId="node-0xc858eb0">
     <command xml:space="preserve">take cake</command>
     <result xml:space="preserve">Taken.
 
@@ -823,10 +826,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e470" />
+      <child nodeId="node-0xc858f20" />
     </children>
   </item>
-  <item nodeId="node-0x48e470">
+  <item nodeId="node-0xc858f20">
     <command xml:space="preserve">x handcuffs</command>
     <result xml:space="preserve">A pair of handcuffs. Roy has the cuff key. You can use them on something.
 
@@ -835,10 +838,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e4e0" />
+      <child nodeId="node-0xc858f90" />
     </children>
   </item>
-  <item nodeId="node-0x48e4e0">
+  <item nodeId="node-0xc858f90">
     <command xml:space="preserve"> cake</command>
     <result xml:space="preserve">That&apos;s not a verb I recognise.
 
@@ -847,10 +850,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e550" />
+      <child nodeId="node-0xc859000" />
     </children>
   </item>
-  <item nodeId="node-0x48e550">
+  <item nodeId="node-0xc859000">
     <command xml:space="preserve">x cake</command>
     <result xml:space="preserve">It smells delicious. So good, that it could distract one from doing work.
 
@@ -859,10 +862,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e5c0" />
+      <child nodeId="node-0xc859070" />
     </children>
   </item>
-  <item nodeId="node-0x48e5c0">
+  <item nodeId="node-0xc859070">
     <command xml:space="preserve">eat the cke</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -871,10 +874,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e630" />
+      <child nodeId="node-0xc8590e0" />
     </children>
   </item>
-  <item nodeId="node-0x48e630">
+  <item nodeId="node-0xc8590e0">
     <command xml:space="preserve">eat cake</command>
     <result xml:space="preserve">That&apos;s plainly inedible.
 
@@ -883,10 +886,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e6a0" />
+      <child nodeId="node-0xc859150" />
     </children>
   </item>
-  <item nodeId="node-0x48e6a0">
+  <item nodeId="node-0xc859150">
     <command xml:space="preserve">give cake to roy</command>
     <result xml:space="preserve">Roy Zakarius doesn&apos;t seem interested.
 
@@ -895,10 +898,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e710" />
+      <child nodeId="node-0xc8591c0" />
     </children>
   </item>
-  <item nodeId="node-0x48e710">
+  <item nodeId="node-0xc8591c0">
     <command xml:space="preserve">use handcuffs on roy</command>
     <result xml:space="preserve">You would achieve nothing by this.
 
@@ -907,10 +910,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e780" />
+      <child nodeId="node-0xc859230" />
     </children>
   </item>
-  <item nodeId="node-0x48e780">
+  <item nodeId="node-0xc859230">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 II
@@ -923,10 +926,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e7f0" />
+      <child nodeId="node-0xc8592a0" />
     </children>
   </item>
-  <item nodeId="node-0x48e7f0">
+  <item nodeId="node-0xc8592a0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 III
@@ -939,10 +942,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e860" />
+      <child nodeId="node-0xc859310" />
     </children>
   </item>
-  <item nodeId="node-0x48e860">
+  <item nodeId="node-0xc859310">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -951,10 +954,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e8d0" />
+      <child nodeId="node-0xc859380" />
     </children>
   </item>
-  <item nodeId="node-0x48e8d0">
+  <item nodeId="node-0xc859380">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 IV room
@@ -969,10 +972,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e940" />
+      <child nodeId="node-0xc8593f0" />
     </children>
   </item>
-  <item nodeId="node-0x48e940">
+  <item nodeId="node-0xc8593f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 III
@@ -985,10 +988,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48e9b0" />
+      <child nodeId="node-0xc859460" />
     </children>
   </item>
-  <item nodeId="node-0x48e9b0">
+  <item nodeId="node-0xc859460">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 II
@@ -1001,10 +1004,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ea20" />
+      <child nodeId="node-0xc8594d0" />
     </children>
   </item>
-  <item nodeId="node-0x48ea20">
+  <item nodeId="node-0xc8594d0">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 I
@@ -1017,10 +1020,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ea90" />
+      <child nodeId="node-0xc859540" />
     </children>
   </item>
-  <item nodeId="node-0x48ea90">
+  <item nodeId="node-0xc859540">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 Entrance
@@ -1033,10 +1036,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48eb00" />
+      <child nodeId="node-0xc8595b0" />
     </children>
   </item>
-  <item nodeId="node-0x48eb00">
+  <item nodeId="node-0xc8595b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 I
@@ -1049,10 +1052,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48eb70" />
+      <child nodeId="node-0xc859620" />
     </children>
   </item>
-  <item nodeId="node-0x48eb70">
+  <item nodeId="node-0xc859620">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 II
@@ -1065,10 +1068,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ebe0" />
+      <child nodeId="node-0xc859690" />
     </children>
   </item>
-  <item nodeId="node-0x48ebe0">
+  <item nodeId="node-0xc859690">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 III
@@ -1081,10 +1084,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ec50" />
+      <child nodeId="node-0xc859700" />
     </children>
   </item>
-  <item nodeId="node-0x48ec50">
+  <item nodeId="node-0xc859700">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 IV room
@@ -1099,10 +1102,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ecc0" />
+      <child nodeId="node-0xc859770" />
     </children>
   </item>
-  <item nodeId="node-0x48ecc0">
+  <item nodeId="node-0xc859770">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 III
@@ -1115,10 +1118,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ed30" />
+      <child nodeId="node-0xc8597e0" />
     </children>
   </item>
-  <item nodeId="node-0x48ed30">
+  <item nodeId="node-0xc8597e0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 V
@@ -1133,10 +1136,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48eda0" />
+      <child nodeId="node-0xc859850" />
     </children>
   </item>
-  <item nodeId="node-0x48eda0">
+  <item nodeId="node-0xc859850">
     <command xml:space="preserve">x rope</command>
     <result xml:space="preserve">You untie the rope from the poles and take it with you.
 
@@ -1145,10 +1148,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ee10" />
+      <child nodeId="node-0xc8598c0" />
     </children>
   </item>
-  <item nodeId="node-0x48ee10">
+  <item nodeId="node-0xc8598c0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Rope
@@ -1163,10 +1166,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="206">YES</temporary>
     <children>
-      <child nodeId="node-0x48ee80" />
+      <child nodeId="node-0xc859930" />
     </children>
   </item>
-  <item nodeId="node-0x48ee80">
+  <item nodeId="node-0xc859930">
     <command xml:space="preserve">x rope</command>
     <result xml:space="preserve">A thick rope that you can tie to  something.
 
@@ -1175,10 +1178,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="205">YES</temporary>
     <children>
-      <child nodeId="node-0x48eef0" />
+      <child nodeId="node-0xc8599a0" />
     </children>
   </item>
-  <item nodeId="node-0x48eef0">
+  <item nodeId="node-0xc8599a0">
     <command xml:space="preserve">x printer</command>
     <result xml:space="preserve">There is a sign on it that reads, &quot;Only prints plastic swords. Use at your own risk.&quot; There is a strange sound, and out pops a plastic sword.
 
@@ -1187,10 +1190,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48ef60" />
+      <child nodeId="node-0xc859a10" />
     </children>
   </item>
-  <item nodeId="node-0x48ef60">
+  <item nodeId="node-0xc859a10">
     <command xml:space="preserve">take sword</command>
     <result xml:space="preserve">Taken.
 
@@ -1199,10 +1202,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48efd0" />
+      <child nodeId="node-0xc859a80" />
     </children>
   </item>
-  <item nodeId="node-0x48efd0">
+  <item nodeId="node-0xc859a80">
     <command xml:space="preserve">hit roy with sword</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1211,10 +1214,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f040" />
+      <child nodeId="node-0xc859af0" />
     </children>
   </item>
-  <item nodeId="node-0x48f040">
+  <item nodeId="node-0xc859af0">
     <command xml:space="preserve">use sword</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1223,10 +1226,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f0b0" />
+      <child nodeId="node-0xc859b60" />
     </children>
   </item>
-  <item nodeId="node-0x48f0b0">
+  <item nodeId="node-0xc859b60">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Plastic sword
@@ -1242,10 +1245,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f120" />
+      <child nodeId="node-0xc859bd0" />
     </children>
   </item>
-  <item nodeId="node-0x48f120">
+  <item nodeId="node-0xc859bd0">
     <command xml:space="preserve">hit roy with plastic sword</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1254,10 +1257,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f190" />
+      <child nodeId="node-0xc859c40" />
     </children>
   </item>
-  <item nodeId="node-0x48f190">
+  <item nodeId="node-0xc859c40">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Plastic sword
@@ -1273,10 +1276,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f200" />
+      <child nodeId="node-0xc859cb0" />
     </children>
   </item>
-  <item nodeId="node-0x48f200">
+  <item nodeId="node-0xc859cb0">
     <command xml:space="preserve">x sword</command>
     <result xml:space="preserve">Extremely light-weight, and slightly bendable. You can probably crack it in half with your bare hands.
 
@@ -1285,10 +1288,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f270" />
+      <child nodeId="node-0xc859d20" />
     </children>
   </item>
-  <item nodeId="node-0x48f270">
+  <item nodeId="node-0xc859d20">
     <command xml:space="preserve">crack sword in half</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1297,10 +1300,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f2e0" />
+      <child nodeId="node-0xc859d90" />
     </children>
   </item>
-  <item nodeId="node-0x48f2e0">
+  <item nodeId="node-0xc859d90">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 VI
@@ -1313,10 +1316,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f350" />
+      <child nodeId="node-0xc859e00" />
     </children>
   </item>
-  <item nodeId="node-0x48f350">
+  <item nodeId="node-0xc859e00">
     <command xml:space="preserve">drop cake</command>
     <result xml:space="preserve">You drop the cake and hide. The guards notice right away the delectable scent, and near the door to investigate. One of them steps forward, &quot;Hey! My slice of cake! Actually, guys, isn&apos;t it lunch time?&quot; The guards take off to room IV.
 
@@ -1325,10 +1328,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f3c0" />
+      <child nodeId="node-0xc859e70" />
     </children>
   </item>
-  <item nodeId="node-0x48f3c0">
+  <item nodeId="node-0xc859e70">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">VI
 You and Roy peer in through the opening made by the slightly ajar door...and see a handful of guards! So that&apos;s where they all went! If only there were a way to distract them...maybe if you placed something by the door, its smell would get their attention...
@@ -1340,10 +1343,10 @@ You can see Roy Zakarius here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f430" />
+      <child nodeId="node-0xc859ee0" />
     </children>
   </item>
-  <item nodeId="node-0x48f430">
+  <item nodeId="node-0xc859ee0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 VII
@@ -1358,10 +1361,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f4a0" />
+      <child nodeId="node-0xc859f50" />
     </children>
   </item>
-  <item nodeId="node-0x48f4a0">
+  <item nodeId="node-0xc859f50">
     <command xml:space="preserve">x table</command>
     <result xml:space="preserve">A simple corner table with a flower pot on top.
 
@@ -1370,10 +1373,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f510" />
+      <child nodeId="node-0xc859fc0" />
     </children>
   </item>
-  <item nodeId="node-0x48f510">
+  <item nodeId="node-0xc859fc0">
     <command xml:space="preserve">x pot</command>
     <result xml:space="preserve">A pot holding a marigold. The pot seems unbalanced, as if something is awkwardly lifting one side.
 
@@ -1382,10 +1385,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f580" />
+      <child nodeId="node-0xc85a030" />
     </children>
   </item>
-  <item nodeId="node-0x48f580">
+  <item nodeId="node-0xc85a030">
     <command xml:space="preserve">look under the pot</command>
     <result xml:space="preserve">You find a pin! You pocket the pin.
 
@@ -1394,10 +1397,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f5f0" />
+      <child nodeId="node-0xc85a0a0" />
     </children>
   </item>
-  <item nodeId="node-0x48f5f0">
+  <item nodeId="node-0xc85a0a0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Pin
@@ -1413,10 +1416,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f660" />
+      <child nodeId="node-0xc85a110" />
     </children>
   </item>
-  <item nodeId="node-0x48f660">
+  <item nodeId="node-0xc85a110">
     <command xml:space="preserve">x pin</command>
     <result xml:space="preserve">It has a pocket that something can be inserted in through combining.
 
@@ -1425,10 +1428,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f6d0" />
+      <child nodeId="node-0xc85a180" />
     </children>
   </item>
-  <item nodeId="node-0x48f6d0">
+  <item nodeId="node-0xc85a180">
     <command xml:space="preserve">x bit</command>
     <result xml:space="preserve">It looks like it&apos;d fit into something through the process of combining...
 
@@ -1437,10 +1440,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f740" />
+      <child nodeId="node-0xc85a1f0" />
     </children>
   </item>
-  <item nodeId="node-0x48f740">
+  <item nodeId="node-0xc85a1f0">
     <command xml:space="preserve">combine bit with pin</command>
     <result xml:space="preserve">You fit the bit into the pin and voila! Now you have a key!
 
@@ -1449,10 +1452,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f7b0" />
+      <child nodeId="node-0xc85a260" />
     </children>
   </item>
-  <item nodeId="node-0x48f7b0">
+  <item nodeId="node-0xc85a260">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Key
@@ -1467,10 +1470,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f820" />
+      <child nodeId="node-0xc85a2d0" />
     </children>
   </item>
-  <item nodeId="node-0x48f820">
+  <item nodeId="node-0xc85a2d0">
     <command xml:space="preserve">x key</command>
     <result xml:space="preserve">Use it to unlock something...
 
@@ -1479,10 +1482,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f890" />
+      <child nodeId="node-0xc85a340" />
     </children>
   </item>
-  <item nodeId="node-0x48f890">
+  <item nodeId="node-0xc85a340">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">VII
 A simple hallway. The exit is back south and to the north.
@@ -1494,10 +1497,10 @@ You can see Roy Zakarius, Corner table and Flower pot here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f900" />
+      <child nodeId="node-0xc85a3b0" />
     </children>
   </item>
-  <item nodeId="node-0x48f900">
+  <item nodeId="node-0xc85a3b0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Final door)
 It seems to be locked.
@@ -1507,10 +1510,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f970" />
+      <child nodeId="node-0xc85a420" />
     </children>
   </item>
-  <item nodeId="node-0x48f970">
+  <item nodeId="node-0xc85a420">
     <command xml:space="preserve">unlock door</command>
     <result xml:space="preserve">What do you want to unlock Final door with?
 
@@ -1519,10 +1522,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48f9e0" />
+      <child nodeId="node-0xc85a490" />
     </children>
   </item>
-  <item nodeId="node-0x48f9e0">
+  <item nodeId="node-0xc85a490">
     <command xml:space="preserve">unlock door with key</command>
     <result xml:space="preserve">You unlock Final door.
 
@@ -1531,10 +1534,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48fa50" />
+      <child nodeId="node-0xc85a500" />
     </children>
   </item>
-  <item nodeId="node-0x48fa50">
+  <item nodeId="node-0xc85a500">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Final door)
 
@@ -1550,10 +1553,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48fac0" />
+      <child nodeId="node-0xc85a570" />
     </children>
   </item>
-  <item nodeId="node-0x48fac0">
+  <item nodeId="node-0xc85a570">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Key
@@ -1568,10 +1571,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48fb30" />
+      <child nodeId="node-0xc85a5e0" />
     </children>
   </item>
-  <item nodeId="node-0x48fb30">
+  <item nodeId="node-0xc85a5e0">
     <command xml:space="preserve">use rope on boss</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -1580,10 +1583,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48fba0" />
+      <child nodeId="node-0xc85a650" />
     </children>
   </item>
-  <item nodeId="node-0x48fba0">
+  <item nodeId="node-0xc85a650">
     <command xml:space="preserve">hit boss</command>
     <result xml:space="preserve">You whack the boss in the head, knocking him out. You and Zakarius easily drag him back to HQ.
 
@@ -1600,10 +1603,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48fc10" />
+      <child nodeId="node-0xc85a6c0" />
     </children>
   </item>
-  <item nodeId="node-0x48fc10">
+  <item nodeId="node-0xc85a6c0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">VIII
 [Previous turn undone.]
@@ -1613,10 +1616,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48fc80" />
+      <child nodeId="node-0xc85a730" />
     </children>
   </item>
-  <item nodeId="node-0x48fc80">
+  <item nodeId="node-0xc85a730">
     <command xml:space="preserve">tie boss with rope</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -1625,10 +1628,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48fcf0" />
+      <child nodeId="node-0xc85a7a0" />
     </children>
   </item>
-  <item nodeId="node-0x48fcf0">
+  <item nodeId="node-0xc85a7a0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">VIII
 [Previous turn undone.]
@@ -1638,10 +1641,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48fd60" />
+      <child nodeId="node-0xc85a810" />
     </children>
   </item>
-  <item nodeId="node-0x48fd60">
+  <item nodeId="node-0xc85a810">
     <command xml:space="preserve">tie up boss with rope</command>
     <result xml:space="preserve">I didn&apos;t understand that sentence.
 
@@ -1650,10 +1653,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x48fdd0" />
+      <child nodeId="node-0xc85a880" />
     </children>
   </item>
-  <item nodeId="node-0x48fdd0">
+  <item nodeId="node-0xc85a880">
     <command xml:space="preserve">tie rope to boss</command>
     <result xml:space="preserve">You tie the boss up, making it easy for you and Zakarius to drag him back to HQ.
 
@@ -1670,35 +1673,37 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="120">YES</temporary>
   </item>
-  <item nodeId="node-0x48fe40">
+  <item nodeId="node-0xc85a8f0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 I
-You listen through the door to make sure no one&apos;s guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. It is The exit is to the west and back south.
+You listen through the door to make sure no one`s guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. The exit is to the west and back south.
 
 Roy follows you here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="291">YES</temporary>
+    <temporary score="213">YES</temporary>
     <children>
-      <child nodeId="node-0x48feb0" />
+      <child nodeId="node-0x20f240" />
+      <child nodeId="node-0xc85a960" />
     </children>
   </item>
-  <item nodeId="node-0x48feb0">
+  <item nodeId="node-0xc85a960">
     <command xml:space="preserve">spin dial to 507</command>
     <result xml:space="preserve">&quot;CLICK&quot; The lockers are now unlocked. You can see Handcuffs and Piece of cake.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="291">YES</temporary>
+    <temporary score="213">YES</temporary>
     <children>
-      <child nodeId="node-0x48ff20" />
+      <child nodeId="node-0x139a8c20" />
+      <child nodeId="node-0xc85a9d0" />
     </children>
   </item>
-  <item nodeId="node-0x48ff20">
+  <item nodeId="node-0xc85a9d0">
     <command xml:space="preserve">take handcuffs</command>
     <result xml:space="preserve">Taken.
 
@@ -1707,10 +1712,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x48ff90" />
+      <child nodeId="node-0xc85aa40" />
     </children>
   </item>
-  <item nodeId="node-0x48ff90">
+  <item nodeId="node-0xc85aa40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 II
@@ -1723,10 +1728,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490000" />
+      <child nodeId="node-0xc85aab0" />
     </children>
   </item>
-  <item nodeId="node-0x490000">
+  <item nodeId="node-0xc85aab0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 III
@@ -1739,10 +1744,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490070" />
+      <child nodeId="node-0xc85ab20" />
     </children>
   </item>
-  <item nodeId="node-0x490070">
+  <item nodeId="node-0xc85ab20">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 V
@@ -1757,10 +1762,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x4900e0" />
+      <child nodeId="node-0xc85ab90" />
     </children>
   </item>
-  <item nodeId="node-0x4900e0">
+  <item nodeId="node-0xc85ab90">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 VI
@@ -1773,10 +1778,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490150" />
+      <child nodeId="node-0xc85ac00" />
     </children>
   </item>
-  <item nodeId="node-0x490150">
+  <item nodeId="node-0xc85ac00">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 VII
@@ -1789,11 +1794,11 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490a10" />
-      <child nodeId="node-0x4901c0" />
+      <child nodeId="node-0xc85b4c0" />
+      <child nodeId="node-0xc85ac70" />
     </children>
   </item>
-  <item nodeId="node-0x4901c0">
+  <item nodeId="node-0xc85ac70">
     <command xml:space="preserve">look under pot</command>
     <result xml:space="preserve">You find a pin! You pocket the pin.
 
@@ -1802,10 +1807,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490230" />
+      <child nodeId="node-0xc85ace0" />
     </children>
   </item>
-  <item nodeId="node-0x490230">
+  <item nodeId="node-0xc85ace0">
     <command xml:space="preserve">combine bit with pin</command>
     <result xml:space="preserve">You fit the bit into the pin and voila! Now you have a key!
 
@@ -1814,10 +1819,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x4902a0" />
+      <child nodeId="node-0xc85ad50" />
     </children>
   </item>
-  <item nodeId="node-0x4902a0">
+  <item nodeId="node-0xc85ad50">
     <command xml:space="preserve">unlock door with key</command>
     <result xml:space="preserve">You unlock Final door.
 
@@ -1826,10 +1831,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490310" />
+      <child nodeId="node-0xc85adc0" />
     </children>
   </item>
-  <item nodeId="node-0x490310">
+  <item nodeId="node-0xc85adc0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Final door)
 
@@ -1845,10 +1850,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490380" />
+      <child nodeId="node-0xc85ae30" />
     </children>
   </item>
-  <item nodeId="node-0x490380">
+  <item nodeId="node-0xc85ae30">
     <command xml:space="preserve">use handcuffs on boss</command>
     <result xml:space="preserve">You handcuff the boss, making it easy for you and Zakarius to drag him back to HQ.
 
@@ -1865,10 +1870,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x4903f0" />
+      <child nodeId="node-0xc85aea0" />
     </children>
   </item>
-  <item nodeId="node-0x4903f0">
+  <item nodeId="node-0xc85aea0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -1878,10 +1883,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490460" />
+      <child nodeId="node-0xc85af10" />
     </children>
   </item>
-  <item nodeId="node-0x490460">
+  <item nodeId="node-0xc85af10">
     <command xml:space="preserve">use handcuffs</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -1891,10 +1896,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x4904d0" />
+      <child nodeId="node-0xc85af80" />
     </children>
   </item>
-  <item nodeId="node-0x4904d0">
+  <item nodeId="node-0xc85af80">
     <command xml:space="preserve">tie handcuffs to boss</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -1904,10 +1909,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490540" />
+      <child nodeId="node-0xc85aff0" />
     </children>
   </item>
-  <item nodeId="node-0x490540">
+  <item nodeId="node-0xc85aff0">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">VIII
 [Previous turn undone.]
@@ -1917,10 +1922,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x4905b0" />
+      <child nodeId="node-0xc85b060" />
     </children>
   </item>
-  <item nodeId="node-0x4905b0">
+  <item nodeId="node-0xc85b060">
     <command xml:space="preserve">use handcuffs on boss</command>
     <result xml:space="preserve">You handcuff the boss, making it easy for you and Zakarius to drag him back to HQ.
 
@@ -1937,10 +1942,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490620" />
+      <child nodeId="node-0xc85b0d0" />
     </children>
   </item>
-  <item nodeId="node-0x490620">
+  <item nodeId="node-0xc85b0d0">
     <command xml:space="preserve">use handcuffs on the boss</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -1950,10 +1955,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490690" />
+      <child nodeId="node-0xc85b140" />
     </children>
   </item>
-  <item nodeId="node-0x490690">
+  <item nodeId="node-0xc85b140">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -1963,10 +1968,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490700" />
+      <child nodeId="node-0xc85b1b0" />
     </children>
   </item>
-  <item nodeId="node-0x490700">
+  <item nodeId="node-0xc85b1b0">
     <command xml:space="preserve">use handcuffs on boss</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -1976,10 +1981,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490770" />
+      <child nodeId="node-0xc85b220" />
     </children>
   </item>
-  <item nodeId="node-0x490770">
+  <item nodeId="node-0xc85b220">
     <command xml:space="preserve">use handcuffs on the boss</command>
     <result xml:space="preserve">Please give one of the answers above.
 
@@ -1989,10 +1994,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x4907e0" />
+      <child nodeId="node-0xc85b290" />
     </children>
   </item>
-  <item nodeId="node-0x4907e0">
+  <item nodeId="node-0xc85b290">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">VIII
 [Previous turn undone.]
@@ -2002,10 +2007,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490850" />
+      <child nodeId="node-0xc85b300" />
     </children>
   </item>
-  <item nodeId="node-0x490850">
+  <item nodeId="node-0xc85b300">
     <command xml:space="preserve">use handcuffs on the boss</command>
     <result xml:space="preserve">You handcuff the boss, making it easy for you and Zakarius to drag him back to HQ.
 
@@ -2022,10 +2027,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x4908c0" />
+      <child nodeId="node-0xc85b370" />
     </children>
   </item>
-  <item nodeId="node-0x4908c0">
+  <item nodeId="node-0xc85b370">
     <command xml:space="preserve">undo</command>
     <result xml:space="preserve">VIII
 [Previous turn undone.]
@@ -2035,10 +2040,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x490930" />
+      <child nodeId="node-0xc85b3e0" />
     </children>
   </item>
-  <item nodeId="node-0x490930">
+  <item nodeId="node-0xc85b3e0">
     <command xml:space="preserve">x handcuffs</command>
     <result xml:space="preserve">A pair of handcuffs. Roy has the cuff key. You can use them on something.
 
@@ -2047,16 +2052,16 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="291">YES</temporary>
     <children>
-      <child nodeId="node-0x4909a0" />
+      <child nodeId="node-0xc85b450" />
     </children>
   </item>
-  <item nodeId="node-0x4909a0">
+  <item nodeId="node-0xc85b450">
     <command xml:space="preserve">use handcuffs on boss</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="290">YES</temporary>
   </item>
-  <item nodeId="node-0x490a10">
+  <item nodeId="node-0xc85b4c0">
     <command xml:space="preserve">look under plant</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2065,10 +2070,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x490a80" />
+      <child nodeId="node-0xc85b530" />
     </children>
   </item>
-  <item nodeId="node-0x490a80">
+  <item nodeId="node-0xc85b530">
     <command xml:space="preserve">look under pot</command>
     <result xml:space="preserve">You find a pin! You pocket the pin.
 
@@ -2077,10 +2082,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x490af0" />
+      <child nodeId="node-0xc85b5a0" />
     </children>
   </item>
-  <item nodeId="node-0x490af0">
+  <item nodeId="node-0xc85b5a0">
     <command xml:space="preserve">combine pin with bit</command>
     <result xml:space="preserve">You fit the bit into the pin and voila! Now you have a key!
 
@@ -2089,10 +2094,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x490b60" />
+      <child nodeId="node-0xc85b610" />
     </children>
   </item>
-  <item nodeId="node-0x490b60">
+  <item nodeId="node-0xc85b610">
     <command xml:space="preserve">unlock door with key</command>
     <result xml:space="preserve">You unlock Final door.
 
@@ -2101,10 +2106,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="121">YES</temporary>
     <children>
-      <child nodeId="node-0x490bd0" />
+      <child nodeId="node-0xc85b680" />
     </children>
   </item>
-  <item nodeId="node-0x490bd0">
+  <item nodeId="node-0xc85b680">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Final door)
 
@@ -2120,7 +2125,426 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="120">YES</temporary>
   </item>
-  <item nodeId="node-0x490c40">
+  <item nodeId="node-0x139a8c20">
+    <command xml:space="preserve">take handcuffs and cake</command>
+    <result xml:space="preserve">Handcuffs: Taken.
+Piece of cake: Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x158851a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x158851a0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+II
+What looks like a meeting room...there are a few seats, a desk, and a whiteboard/projector screen. The exit is to the west and back east.
+
+You can see Seats, Desk and White board here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x1586c780" />
+    </children>
+  </item>
+  <item nodeId="node-0x1586c780">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x15855040" />
+    </children>
+  </item>
+  <item nodeId="node-0x15855040">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x214670" />
+    </children>
+  </item>
+  <item nodeId="node-0x214670">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+III
+A rather empty storage room. Hmm. Must be one of their newer hideouts. The exit is to the north and back east.
+
+You can see Boxes (closed) here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x142e6780" />
+    </children>
+  </item>
+  <item nodeId="node-0x142e6780">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+V
+One of the walls is lined with computers-you assume that this is the makeshift HQ`s research room. You see a 3D printer blocked off by a rope.
+
+You can see 3D printer here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x1390e630" />
+    </children>
+  </item>
+  <item nodeId="node-0x1390e630">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+III
+A rather empty storage room. Hmm. Must be one of their newer hideouts. The exit is to the north and back east.
+
+You can see Boxes (closed) here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x1397d930" />
+    </children>
+  </item>
+  <item nodeId="node-0x1397d930">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+IV
+What appears to be the guards` break room. A simple, clean room with a few tables and chairs for the base`s security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet. The exit is back south.
+
+You can see Tables and Chairs here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x14276910" />
+    </children>
+  </item>
+  <item nodeId="node-0x14276910">
+    <command xml:space="preserve">x tables</command>
+    <result xml:space="preserve">You scan the tables to check for any clues the guards carelessly left behind. Unfortunately, there are no clues to be found.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x158911a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x158911a0">
+    <command xml:space="preserve">x chairs</command>
+    <result xml:space="preserve">You check each chair for anything that might have fallen out of the guards` pockets. On one chair, you find a pack of cigarettes with an R, a G, and a B written on the outside. Maybe it`s a code to unlock something? &quot;Hey, you found cigarettes! Mind sharing?&quot; asks Roy, as he grabs hold of the cigarette pack...along with your hand holding the pack. It appears you must give him a cigarette before he releases your hand. Strangely, it feels awfully light. Maybe you should check inside?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0xbf88050" />
+    </children>
+  </item>
+  <item nodeId="node-0xbf88050">
+    <command xml:space="preserve">open cigarette pack</command>
+    <result xml:space="preserve">&quot;WHAT?! WHAT THE HEAK ARE THOSE M&amp;Ms DOING IN THERE?&quot; Roy releases you in favor of throwing his hands above his head in frustration.  You look at Roy, a blank expression plastered on your face. You see a green M&amp;M, a blue M&amp;M, and a red M&amp;M.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x14259470" />
+    </children>
+  </item>
+  <item nodeId="node-0x14259470">
+    <command xml:space="preserve">x cigarette pack</command>
+    <result xml:space="preserve">&quot;WHAT?! WHAT THE HEAK ARE THOSE M&amp;Ms DOING IN THERE?&quot; Roy releases you in favor of throwing his hands above his head in frustration.  You look at Roy, a blank expression plastered on your face. You see a green M&amp;M, a blue M&amp;M, and a red M&amp;M.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x2c8450" />
+    </children>
+  </item>
+  <item nodeId="node-0x2c8450">
+    <command xml:space="preserve">x counter</command>
+    <result xml:space="preserve">A marble counter. On top of it are stacks of cups, two coffee machines, napkins, a tub of marshmallows, and a mysterious, opened soup can.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x1396d090" />
+    </children>
+  </item>
+  <item nodeId="node-0x1396d090">
+    <command xml:space="preserve">x cups</command>
+    <result xml:space="preserve">Disposable heat-resistant cups
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x9947170" />
+    </children>
+  </item>
+  <item nodeId="node-0x9947170">
+    <command xml:space="preserve">take cups</command>
+    <result xml:space="preserve">A stack of cups...however, you don&apos;t think you`ll need them for this mission, so you decide to leave them.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0xbf0b360" />
+    </children>
+  </item>
+  <item nodeId="node-0xbf0b360">
+    <command xml:space="preserve">x coffee machines</command>
+    <result xml:space="preserve">Two kick-ass coffee machines...too bad you don&apos;t like coffee...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x158bc590" />
+    </children>
+  </item>
+  <item nodeId="node-0x158bc590">
+    <command xml:space="preserve">take machines</command>
+    <result xml:space="preserve">I know you`re a super agent and all, but how do you plan to be all stealthy-like if you`ve got those two silly machines in your arms?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x99d4680" />
+    </children>
+  </item>
+  <item nodeId="node-0x99d4680">
+    <command xml:space="preserve">x soup can</command>
+    <result xml:space="preserve">&quot;Where`s the label?&quot; asks Roy. As he nears the counter to inspect the can, he trips on your foot and goes crashing into the counter, knocking the soup can onto the floor. He picks it up, but you should check the floor to make sure he didn`t make a mess. The guards can`t know you`ve been here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x142c9c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x142c9c60">
+    <command xml:space="preserve">x floor</command>
+    <result xml:space="preserve">You don`t see any spillage, but you do spot a piece of paper lying on the floor. You pick up the paper.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="213">YES</temporary>
+    <children>
+      <child nodeId="node-0x139de420" />
+    </children>
+  </item>
+  <item nodeId="node-0x139de420">
+    <command xml:space="preserve">x paper</command>
+    <result xml:space="preserve">What appears to be the torn-off label from a spaghetti-o`s can. You turn it over and see numbers on the back. It reads &quot;507&quot;.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="212">YES</temporary>
+  </item>
+  <item nodeId="node-0x20f240">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+    <children>
+      <child nodeId="node-0x151a96e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x151a96e0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+    <children>
+      <child nodeId="node-0x151c2780" />
+    </children>
+  </item>
+  <item nodeId="node-0x151c2780">
+    <command xml:space="preserve">spin dial to 507</command>
+    <result xml:space="preserve">&quot;CLICK&quot; The lockers are now unlocked. You can see Handcuffs and Piece of cake.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+    <children>
+      <child nodeId="node-0x151ac1b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x151ac1b0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Entrance
+A petite room with black and white checkerboard-style tiles, and grey walls. There is a plant on either side of the doorway, and three narrow windows. The exit is to the north.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+    <children>
+      <child nodeId="node-0x1424da70" />
+    </children>
+  </item>
+  <item nodeId="node-0x1424da70">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+    <children>
+      <child nodeId="node-0x13963ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0x13963ad0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+    <children>
+      <child nodeId="node-0x71e220" />
+    </children>
+  </item>
+  <item nodeId="node-0x71e220">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+    <children>
+      <child nodeId="node-0x151aff20" />
+    </children>
+  </item>
+  <item nodeId="node-0x151aff20">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+I
+You listen through the door to make sure no one`s guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. The exit is to the west and back south.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+    <children>
+      <child nodeId="node-0x203730" />
+    </children>
+  </item>
+  <item nodeId="node-0x203730">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Bit
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+    <children>
+      <child nodeId="node-0x15157d40" />
+    </children>
+  </item>
+  <item nodeId="node-0x15157d40">
+    <command xml:space="preserve">spin dial to 507</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+    <children>
+      <child nodeId="node-0x158a3d60" />
+    </children>
+  </item>
+  <item nodeId="node-0x158a3d60">
+    <command xml:space="preserve">spin dial to 507</command>
+    <result xml:space="preserve">You hear a &quot;Click&quot;, but nothing else happens.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="154">YES</temporary>
+    <children>
+      <child nodeId="node-0x229fb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x229fb0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Bit
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="153">YES</temporary>
+  </item>
+  <item nodeId="node-0xc85b6f0">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Bit
@@ -2130,10 +2554,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x490cb0" />
+      <child nodeId="node-0xc85b760" />
     </children>
   </item>
-  <item nodeId="node-0x490cb0">
+  <item nodeId="node-0xc85b760">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 I
@@ -2146,10 +2570,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x490d20" />
+      <child nodeId="node-0xc85b7d0" />
     </children>
   </item>
-  <item nodeId="node-0x490d20">
+  <item nodeId="node-0xc85b7d0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 II
@@ -2162,10 +2586,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x490d90" />
+      <child nodeId="node-0xc85b840" />
     </children>
   </item>
-  <item nodeId="node-0x490d90">
+  <item nodeId="node-0xc85b840">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 III
@@ -2178,10 +2602,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x490e00" />
+      <child nodeId="node-0xc85b8b0" />
     </children>
   </item>
-  <item nodeId="node-0x490e00">
+  <item nodeId="node-0xc85b8b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 V
@@ -2196,10 +2620,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x490e70" />
+      <child nodeId="node-0xc85b920" />
     </children>
   </item>
-  <item nodeId="node-0x490e70">
+  <item nodeId="node-0xc85b920">
     <command xml:space="preserve">use 3d printer</command>
     <result xml:space="preserve">There is a sign on it that reads, &quot;Only prints plastic swords. Use at your own risk.&quot; There is a strange sound, and out pops a plastic sword.
 
@@ -2208,10 +2632,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x490ee0" />
+      <child nodeId="node-0xc85b990" />
     </children>
   </item>
-  <item nodeId="node-0x490ee0">
+  <item nodeId="node-0xc85b990">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Bit
@@ -2221,10 +2645,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x490f50" />
+      <child nodeId="node-0xc85ba00" />
     </children>
   </item>
-  <item nodeId="node-0x490f50">
+  <item nodeId="node-0xc85ba00">
     <command xml:space="preserve">take sword</command>
     <result xml:space="preserve">Taken.
 
@@ -2233,10 +2657,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x490fc0" />
+      <child nodeId="node-0xc85ba70" />
     </children>
   </item>
-  <item nodeId="node-0x490fc0">
+  <item nodeId="node-0xc85ba70">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 III
@@ -2249,10 +2673,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491030" />
+      <child nodeId="node-0xc85bae0" />
     </children>
   </item>
-  <item nodeId="node-0x491030">
+  <item nodeId="node-0xc85bae0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 V
@@ -2267,10 +2691,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x4910a0" />
+      <child nodeId="node-0xc85bb50" />
     </children>
   </item>
-  <item nodeId="node-0x4910a0">
+  <item nodeId="node-0xc85bb50">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 VI
@@ -2281,10 +2705,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491110" />
+      <child nodeId="node-0xc85bbc0" />
     </children>
   </item>
-  <item nodeId="node-0x491110">
+  <item nodeId="node-0xc85bbc0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 VII
@@ -2297,10 +2721,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491180" />
+      <child nodeId="node-0xc85bc30" />
     </children>
   </item>
-  <item nodeId="node-0x491180">
+  <item nodeId="node-0xc85bc30">
     <command xml:space="preserve">look under flower pot</command>
     <result xml:space="preserve">You find a pin! You pocket the pin.
 
@@ -2309,10 +2733,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x4911f0" />
+      <child nodeId="node-0xc85bca0" />
     </children>
   </item>
-  <item nodeId="node-0x4911f0">
+  <item nodeId="node-0xc85bca0">
     <command xml:space="preserve">combine pin with bit</command>
     <result xml:space="preserve">You fit the bit into the pin and voila! Now you have a key!
 
@@ -2321,10 +2745,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491260" />
+      <child nodeId="node-0xc85bd10" />
     </children>
   </item>
-  <item nodeId="node-0x491260">
+  <item nodeId="node-0xc85bd10">
     <command xml:space="preserve">i</command>
     <result xml:space="preserve">You are carrying:
   Key
@@ -2335,10 +2759,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x4912d0" />
+      <child nodeId="node-0xc85bd80" />
     </children>
   </item>
-  <item nodeId="node-0x4912d0">
+  <item nodeId="node-0xc85bd80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Final door)
 It seems to be locked.
@@ -2348,10 +2772,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491340" />
+      <child nodeId="node-0xc85bdf0" />
     </children>
   </item>
-  <item nodeId="node-0x491340">
+  <item nodeId="node-0xc85bdf0">
     <command xml:space="preserve">use key to unlock final door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2360,10 +2784,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x4913b0" />
+      <child nodeId="node-0xc85be60" />
     </children>
   </item>
-  <item nodeId="node-0x4913b0">
+  <item nodeId="node-0xc85be60">
     <command xml:space="preserve">use key to unlock door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2372,10 +2796,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491420" />
+      <child nodeId="node-0xc85bed0" />
     </children>
   </item>
-  <item nodeId="node-0x491420">
+  <item nodeId="node-0xc85bed0">
     <command xml:space="preserve">use key to unlock final door</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -2384,10 +2808,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491490" />
+      <child nodeId="node-0xc85bf40" />
     </children>
   </item>
-  <item nodeId="node-0x491490">
+  <item nodeId="node-0xc85bf40">
     <command xml:space="preserve">unlock door with key</command>
     <result xml:space="preserve">You unlock Final door.
 
@@ -2396,10 +2820,10 @@ It seems to be locked.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491500" />
+      <child nodeId="node-0xc85bfb0" />
     </children>
   </item>
-  <item nodeId="node-0x491500">
+  <item nodeId="node-0xc85bfb0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Final door)
 
@@ -2415,10 +2839,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491570" />
+      <child nodeId="node-0xc85c020" />
     </children>
   </item>
-  <item nodeId="node-0x491570">
+  <item nodeId="node-0xc85c020">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2427,10 +2851,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x4915e0" />
+      <child nodeId="node-0xc85c090" />
     </children>
   </item>
-  <item nodeId="node-0x4915e0">
+  <item nodeId="node-0xc85c090">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2439,10 +2863,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491650" />
+      <child nodeId="node-0xc85c100" />
     </children>
   </item>
-  <item nodeId="node-0x491650">
+  <item nodeId="node-0xc85c100">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2451,10 +2875,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x4916c0" />
+      <child nodeId="node-0xc85c170" />
     </children>
   </item>
-  <item nodeId="node-0x4916c0">
+  <item nodeId="node-0xc85c170">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 VII
@@ -2467,10 +2891,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491730" />
+      <child nodeId="node-0xc85c1e0" />
     </children>
   </item>
-  <item nodeId="node-0x491730">
+  <item nodeId="node-0xc85c1e0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 VIII
@@ -2485,10 +2909,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x4917a0" />
+      <child nodeId="node-0xc85c250" />
     </children>
   </item>
-  <item nodeId="node-0x4917a0">
+  <item nodeId="node-0xc85c250">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2497,10 +2921,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491810" />
+      <child nodeId="node-0xc85c2c0" />
     </children>
   </item>
-  <item nodeId="node-0x491810">
+  <item nodeId="node-0xc85c2c0">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -2509,10 +2933,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491880" />
+      <child nodeId="node-0xc85c330" />
     </children>
   </item>
-  <item nodeId="node-0x491880">
+  <item nodeId="node-0xc85c330">
     <command xml:space="preserve">hit boss with sword</command>
     <result xml:space="preserve">I only understood you as far as wanting to hit the boss.
 
@@ -2521,10 +2945,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x4918f0" />
+      <child nodeId="node-0xc85c3a0" />
     </children>
   </item>
-  <item nodeId="node-0x4918f0">
+  <item nodeId="node-0xc85c3a0">
     <command xml:space="preserve">hit boss</command>
     <result xml:space="preserve">Violence isn&apos;t the answer to this one.
 
@@ -2535,10 +2959,10 @@ You whack the boss in the head, knocking him out.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x491960" />
+      <child nodeId="node-0xc85c410" />
     </children>
   </item>
-  <item nodeId="node-0x491960">
+  <item nodeId="node-0xc85c410">
     <command xml:space="preserve">hit boss</command>
     <result xml:space="preserve">Violence isn&apos;t the answer to this one.
 
@@ -2549,10 +2973,10 @@ You whack the boss in the head, knocking him out.
     <changed>NO</changed>
     <temporary score="199">YES</temporary>
     <children>
-      <child nodeId="node-0x4919d0" />
+      <child nodeId="node-0xc85c480" />
     </children>
   </item>
-  <item nodeId="node-0x4919d0">
+  <item nodeId="node-0xc85c480">
     <command xml:space="preserve">hit boss with sword</command>
     <result xml:space="preserve">I only understood you as far as wanting to hit the boss.
 
@@ -2561,7 +2985,13 @@ You whack the boss in the head, knocking him out.
     <changed>NO</changed>
     <temporary score="198">YES</temporary>
   </item>
-  <item nodeId="node-0x491a40">
+  <item nodeId="node-0x158a4180">
+    <command xml:space="preserve">x windows</command>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="213">YES</temporary>
+  </item>
+  <item nodeId="node-0xc85c4f0">
     <command xml:space="preserve">N</command>
     <result xml:space="preserve">
 I
@@ -2574,10 +3004,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="88">YES</temporary>
     <children>
-      <child nodeId="node-0x491ab0" />
+      <child nodeId="node-0xc85c560" />
     </children>
   </item>
-  <item nodeId="node-0x491ab0">
+  <item nodeId="node-0xc85c560">
     <command xml:space="preserve">spin dial to 507</command>
     <result xml:space="preserve">&quot;CLICK&quot; The lockers are now unlocked. You can see Handcuffs and Piece of cake.
 
@@ -2586,10 +3016,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="88">YES</temporary>
     <children>
-      <child nodeId="node-0x491b20" />
+      <child nodeId="node-0xc85c5d0" />
     </children>
   </item>
-  <item nodeId="node-0x491b20">
+  <item nodeId="node-0xc85c5d0">
     <command xml:space="preserve">take cake</command>
     <result xml:space="preserve">Taken.
 
@@ -2598,10 +3028,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="88">YES</temporary>
     <children>
-      <child nodeId="node-0x491b90" />
+      <child nodeId="node-0xc85c640" />
     </children>
   </item>
-  <item nodeId="node-0x491b90">
+  <item nodeId="node-0xc85c640">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 II
@@ -2614,10 +3044,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="88">YES</temporary>
     <children>
-      <child nodeId="node-0x491c00" />
+      <child nodeId="node-0xc85c6b0" />
     </children>
   </item>
-  <item nodeId="node-0x491c00">
+  <item nodeId="node-0xc85c6b0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 III
@@ -2630,11 +3060,11 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="88">YES</temporary>
     <children>
-      <child nodeId="node-0x491dc0" />
-      <child nodeId="node-0x491c70" />
+      <child nodeId="node-0xc85c870" />
+      <child nodeId="node-0xc85c720" />
     </children>
   </item>
-  <item nodeId="node-0x491c70">
+  <item nodeId="node-0xc85c720">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 V
@@ -2649,10 +3079,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="88">YES</temporary>
     <children>
-      <child nodeId="node-0x491ce0" />
+      <child nodeId="node-0xc85c790" />
     </children>
   </item>
-  <item nodeId="node-0x491ce0">
+  <item nodeId="node-0xc85c790">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 VI
@@ -2665,17 +3095,17 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="88">YES</temporary>
     <children>
-      <child nodeId="node-0x491d50" />
+      <child nodeId="node-0xc85c800" />
     </children>
   </item>
-  <item nodeId="node-0x491d50">
+  <item nodeId="node-0xc85c800">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="87">YES</temporary>
   </item>
-  <item nodeId="node-0x491dc0">
+  <item nodeId="node-0xc85c870">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 IV
@@ -2690,10 +3120,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="201">YES</temporary>
     <children>
-      <child nodeId="node-0x491e30" />
+      <child nodeId="node-0xc85c8e0" />
     </children>
   </item>
-  <item nodeId="node-0x491e30">
+  <item nodeId="node-0xc85c8e0">
     <command xml:space="preserve">x chairs</command>
     <result xml:space="preserve">You check each chair for anything that might have fallen out of the guards&quot; pockets. On one chair, you find a pack of cigarettes with an R, a G, and a B written on the outside. Maybe it`s a code to unlock something? &quot;Hey, you found cigarettes! Mind sharing?&quot; asks Roy, as he grabs hold of the cigarette pack...along with your hand holding the pack. It appears you must give him a cigarette before he releases your hand. Strangely, it feels awfully light. Maybe you should check inside?
 
@@ -2702,10 +3132,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="201">YES</temporary>
     <children>
-      <child nodeId="node-0x491ea0" />
+      <child nodeId="node-0xc85c950" />
     </children>
   </item>
-  <item nodeId="node-0x491ea0">
+  <item nodeId="node-0xc85c950">
     <command xml:space="preserve">open cigarette pack</command>
     <result xml:space="preserve">&quot;WHAT?! WHAT THE HEAK ARE THOSE M&amp;Ms DOING IN THERE?&quot; Roy releases you in favor of throwing his hands above his head in frustration.  You look at Roy, a blank expression plastered on your face. You see a green M&amp;M, a blue M&amp;M, and a red M&amp;M.
 
@@ -2714,10 +3144,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="201">YES</temporary>
     <children>
-      <child nodeId="node-0x491f10" />
+      <child nodeId="node-0xc85c9c0" />
     </children>
   </item>
-  <item nodeId="node-0x491f10">
+  <item nodeId="node-0xc85c9c0">
     <command xml:space="preserve">x cigarette pack</command>
     <result xml:space="preserve">&quot;WHAT?! WHAT THE HEAK ARE THOSE M&amp;Ms DOING IN THERE?&quot; Roy releases you in favor of throwing his hands above his head in frustration.  You look at Roy, a blank expression plastered on your face. You see a green M&amp;M, a blue M&amp;M, and a red M&amp;M.
 
@@ -2726,10 +3156,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="201">YES</temporary>
     <children>
-      <child nodeId="node-0x491f80" />
+      <child nodeId="node-0xc85ca30" />
     </children>
   </item>
-  <item nodeId="node-0x491f80">
+  <item nodeId="node-0xc85ca30">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 III
@@ -2742,10 +3172,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="201">YES</temporary>
     <children>
-      <child nodeId="node-0x491ff0" />
+      <child nodeId="node-0xc85caa0" />
     </children>
   </item>
-  <item nodeId="node-0x491ff0">
+  <item nodeId="node-0xc85caa0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 V
@@ -2760,10 +3190,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="201">YES</temporary>
     <children>
-      <child nodeId="node-0x492060" />
+      <child nodeId="node-0xc85cb10" />
     </children>
   </item>
-  <item nodeId="node-0x492060">
+  <item nodeId="node-0xc85cb10">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 VI
@@ -2776,10 +3206,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="201">YES</temporary>
     <children>
-      <child nodeId="node-0x4920d0" />
+      <child nodeId="node-0xc85cb80" />
     </children>
   </item>
-  <item nodeId="node-0x4920d0">
+  <item nodeId="node-0xc85cb80">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">(first opening Hallway door)
 It seems to be locked.
@@ -2789,35 +3219,253 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="200">YES</temporary>
   </item>
-  <item nodeId="node-0x492140">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-I
-You listen through the door to make sure no one&apos;s guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. The exit is to the west and back south.
+  <item nodeId="node-0xbfa83b0">
+    <command xml:space="preserve">x self</command>
+    <result xml:space="preserve">&quot;Lookin` mighty fine today, special agent&quot; says Roy.
 
 Roy follows you here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="59">YES</temporary>
+    <temporary score="48">YES</temporary>
     <children>
-      <child nodeId="node-0x4921b0" />
+      <child nodeId="node-0xbf4c390" />
     </children>
   </item>
-  <item nodeId="node-0x4921b0">
+  <item nodeId="node-0xbf4c390">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+I
+You listen through the door to make sure no one`s guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. The exit is to the west and back south.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x9994b90" />
+    </children>
+  </item>
+  <item nodeId="node-0x9994b90">
+    <command xml:space="preserve">spin dial to 507</command>
+    <result xml:space="preserve">&quot;CLICK&quot; The lockers are now unlocked. You can see Handcuffs and Piece of cake.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x7ec470" />
+    </children>
+  </item>
+  <item nodeId="node-0x7ec470">
+    <command xml:space="preserve">take cake</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x682d590" />
+    </children>
+  </item>
+  <item nodeId="node-0x682d590">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+II
+The exit is to the west and back east.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x7e6db0" />
+    </children>
+  </item>
+  <item nodeId="node-0x7e6db0">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+III
+The exit is to the north and back east.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x68305e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68305e0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+V
+One of the walls is lined with computers-you assume that this is the makeshift HQ`s research room. You see a 3D printer blocked off by a rope.
+
+You can see 3D printer here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x6830ff0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6830ff0">
+    <command xml:space="preserve">e</command>
+    <result xml:space="preserve">
+VI
+A spacious room.  All of the guards are gathered here. You can`t let them see you, as you can`t let yourself get caught. Maybe you can get them out of here if you dropped something... 
+
+You can see Guards here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x265110" />
+    </children>
+  </item>
+  <item nodeId="node-0x265110">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">Despite your and Roy`s exceptional skill, you don`t think you can take all of these guys at once...especially when they each have all of that equipment...
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x99ecf40" />
+    </children>
+  </item>
+  <item nodeId="node-0x99ecf40">
+    <command xml:space="preserve">drop cake</command>
+    <result xml:space="preserve">You drop half of the piece of cake and hide. The guards notice right away the delectable scent, and near the door to investigate. One of them steps forward, &quot;Hey! My slice of cake! Actually, guys, isn`t it lunch time?&quot; The guards take off to room IV, and you and Roy enter the code (RGB) to sneak off to the next room.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0xbf603c0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbf603c0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">That`s one heck of a piece of cake...apparently the guards are still distracted.
+
+(first opening Hallway door)
+
+VII
+A simple hallway. The exit is back south and to the north.
+
+You can see Corner table and Flower pot here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x6832f40" />
+    </children>
+  </item>
+  <item nodeId="node-0x6832f40">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+VI
+A spacious room. 
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x6806da0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6806da0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">That`s one heck of a piece of cake...apparently the guards are still distracted.
+
+VII
+A simple hallway. The exit is back south and to the north.
+
+You can see Corner table and Flower pot here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x99366a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99366a0">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+VI
+A spacious room. 
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+  </item>
+  <item nodeId="node-0xc85cbf0">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+I
+You listen through the door to make sure no one`s guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. The exit is to the west and back south.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0x682fdb0" />
+      <child nodeId="node-0x1428c980" />
+      <child nodeId="node-0xc85cc60" />
+    </children>
+  </item>
+  <item nodeId="node-0xc85cc60">
     <command xml:space="preserve">spin dial to 507</command>
     <result xml:space="preserve">&quot;CLICK&quot; The lockers are now unlocked. You can see Handcuffs and Piece of cake.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="59">YES</temporary>
+    <temporary score="130">YES</temporary>
     <children>
-      <child nodeId="node-0x492220" />
+      <child nodeId="node-0xbfac540" />
+      <child nodeId="node-0xc85ccd0" />
     </children>
   </item>
-  <item nodeId="node-0x492220">
+  <item nodeId="node-0xc85ccd0">
     <command xml:space="preserve">take cake</command>
     <result xml:space="preserve">Taken.
 
@@ -2826,10 +3474,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x492290" />
+      <child nodeId="node-0xc85cd40" />
     </children>
   </item>
-  <item nodeId="node-0x492290">
+  <item nodeId="node-0xc85cd40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 II
@@ -2842,11 +3490,11 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x492ae0" />
-      <child nodeId="node-0x492300" />
+      <child nodeId="node-0xc85d980" />
+      <child nodeId="node-0xc85cdb0" />
     </children>
   </item>
-  <item nodeId="node-0x492300">
+  <item nodeId="node-0xc85cdb0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 III
@@ -2859,10 +3507,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x492370" />
+      <child nodeId="node-0xc85ce20" />
     </children>
   </item>
-  <item nodeId="node-0x492370">
+  <item nodeId="node-0xc85ce20">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 V
@@ -2877,10 +3525,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4923e0" />
+      <child nodeId="node-0xc85ce90" />
     </children>
   </item>
-  <item nodeId="node-0x4923e0">
+  <item nodeId="node-0xc85ce90">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 VI
@@ -2895,10 +3543,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x492450" />
+      <child nodeId="node-0xc85cf00" />
     </children>
   </item>
-  <item nodeId="node-0x492450">
+  <item nodeId="node-0xc85cf00">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">Despite your and Roy`s exceptional skill, you don`t think you can take all of these guys at once...especially when they each have all of that equipment...
 
@@ -2907,45 +3555,11 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x4924c0" />
-      <child nodeId="node-0x299ea0" />
-      <child nodeId="node-0x3471b0" />
+      <child nodeId="node-0xc85d360" />
+      <child nodeId="node-0xc85d0c0" />
     </children>
   </item>
-  <item nodeId="node-0x3471b0">
-    <command xml:space="preserve">drop caake</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x1ad380" />
-    </children>
-  </item>
-  <item nodeId="node-0x1ad380">
-    <command xml:space="preserve">drop cake</command>
-    <result xml:space="preserve">Dropped.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="36">YES</temporary>
-    <children>
-      <child nodeId="node-0x49cdc0" />
-    </children>
-  </item>
-  <item nodeId="node-0x49cdc0">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">Despite your and Roy`s exceptional skill, you don`t think you can take all of these guys at once...especially when they each have all of that equipment...
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="35">YES</temporary>
-  </item>
-  <item nodeId="node-0x299ea0">
+  <item nodeId="node-0xc85d0c0">
     <command xml:space="preserve">drop cake</command>
     <result xml:space="preserve">You drop half of the piece of cake and hide. The guards notice right away the delectable scent, and near the door to investigate. One of them steps forward, &quot;Hey! My slice of cake! Actually, guys, isn&apos;t it lunch time?&quot; The guards take off to room IV, and you and Roy enter the code (RGB) to sneak off to the next room.
 
@@ -2954,10 +3568,10 @@ Roy follows you here.
     <changed>NO</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x1d7050" />
+      <child nodeId="node-0xc85d130" />
     </children>
   </item>
-  <item nodeId="node-0x1d7050">
+  <item nodeId="node-0xc85d130">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">That&apos;s one heck of a piece of cake...apparently the guards are still distracted.
 
@@ -2975,11 +3589,11 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x349c60" />
-      <child nodeId="node-0xcf4e790" />
+      <child nodeId="node-0xc85d280" />
+      <child nodeId="node-0xc85d1a0" />
     </children>
   </item>
-  <item nodeId="node-0xcf4e790">
+  <item nodeId="node-0xc85d1a0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 VI
@@ -2992,16 +3606,16 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="59">YES</temporary>
     <children>
-      <child nodeId="node-0x2a32e0" />
+      <child nodeId="node-0xc85d210" />
     </children>
   </item>
-  <item nodeId="node-0x2a32e0">
+  <item nodeId="node-0xc85d210">
     <command xml:space="preserve">n</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="58">YES</temporary>
   </item>
-  <item nodeId="node-0x349c60">
+  <item nodeId="node-0xc85d280">
     <command xml:space="preserve">l</command>
     <result xml:space="preserve">VI
 A spacious room. 
@@ -3012,20 +3626,8 @@ You can see Roy Zakarius here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="46">YES</temporary>
-    <children>
-      <child nodeId="node-0x350cb0" />
-    </children>
   </item>
-  <item nodeId="node-0x350cb0">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">Despite your and Roy`s exceptional skill, you don`t think you can take all of these guys at once...especially when they each have all of that equipment...
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="24">YES</temporary>
-  </item>
-  <item nodeId="node-0x4924c0">
+  <item nodeId="node-0xc85d360">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 VI
@@ -3039,210 +3641,8 @@ Roy follows you here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="48">YES</temporary>
-    <children>
-      <child nodeId="node-0x492610" />
-      <child nodeId="node-0x492530" />
-    </children>
   </item>
-  <item nodeId="node-0x492530">
-    <command xml:space="preserve">drop cake</command>
-    <result xml:space="preserve">You drop half of the piece of cake and hide. The guards notice right away the delectable scent, and near the door to investigate. One of them steps forward, &quot;Hey! My slice of cake! Actually, guys, isn&apos;t it lunch time?&quot; The guards take off to room IV, and you and Roy enter the code (RGB) to sneak off to the next room.
-
-VII
-A simple hallway. The exit is back south and to the north.
-
-You can see Corner table and Flower pot here.
-
-Roy follows you here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="40">YES</temporary>
-    <children>
-      <child nodeId="node-0x4925a0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4925a0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-VI
-A spacious room. All of the guards are gathered here. You can&apos;t let them see you, as you can`t let yourself get caught. Maybe you can get them out of here if you dropped something...
-
-Roy follows you here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="39">YES</temporary>
-  </item>
-  <item nodeId="node-0x492610">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x492680" />
-    </children>
-  </item>
-  <item nodeId="node-0x492680">
-    <command xml:space="preserve">drop cake</command>
-    <result xml:space="preserve">You drop half of the piece of cake and hide. The guards notice right away the delectable scent, and near the door to investigate. One of them steps forward, &quot;Hey! My slice of cake! Actually, guys, isn&apos;t it lunch time?&quot; The guards take off to room IV, and you and Roy enter the code (RGB) to sneak off to the next room.
-
-VII
-A simple hallway. The exit is back south and to the north.
-
-You can see Corner table and Flower pot here.
-
-Roy follows you here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x4926f0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4926f0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-VI
-A spacious room. All of the guards are gathered here. You can&apos;t let them see you, as you can`t let yourself get caught. Maybe you can get them out of here if you dropped something...
-
-You can see Guards here.
-
-Roy follows you here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x492760" />
-    </children>
-  </item>
-  <item nodeId="node-0x492760">
-    <command xml:space="preserve">drop cake</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x4927d0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4927d0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x492840" />
-    </children>
-  </item>
-  <item nodeId="node-0x492840">
-    <command xml:space="preserve">n</command>
-    <result xml:space="preserve">
-VII
-A simple hallway. The exit is back south and to the north.
-
-You can see Corner table and Flower pot here.
-
-Roy follows you here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x4928b0" />
-    </children>
-  </item>
-  <item nodeId="node-0x4928b0">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">
-VI
-A spacious room. All of the guards are gathered here. You can&apos;t let them see you, as you can`t let yourself get caught. Maybe you can get them out of here if you dropped something...
-
-You can see Guards here.
-
-Roy follows you here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x492920" />
-    </children>
-  </item>
-  <item nodeId="node-0x492920">
-    <command xml:space="preserve">s</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x492990" />
-    </children>
-  </item>
-  <item nodeId="node-0x492990">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">You can&apos;t go that way.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x492a00" />
-    </children>
-  </item>
-  <item nodeId="node-0x492a00">
-    <command xml:space="preserve">w</command>
-    <result xml:space="preserve">
-V
-One of the walls is lined with computers-you assume that this is the makeshift HQ&apos;s research room. You see a 3D printer blocked off by a rope.
-
-You can see 3D printer here.
-
-Roy follows you here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="29">YES</temporary>
-    <children>
-      <child nodeId="node-0x492a70" />
-    </children>
-  </item>
-  <item nodeId="node-0x492a70">
-    <command xml:space="preserve">e</command>
-    <result xml:space="preserve">
-VI
-A spacious room. All of the guards are gathered here. You can&apos;t let them see you, as you can`t let yourself get caught. Maybe you can get them out of here if you dropped something...
-
-You can see Guards here.
-
-Roy follows you here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="28">YES</temporary>
-  </item>
-  <item nodeId="node-0x492ae0">
+  <item nodeId="node-0xc85d980">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -3251,10 +3651,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x492b50" />
+      <child nodeId="node-0xc85d9f0" />
     </children>
   </item>
-  <item nodeId="node-0x492b50">
+  <item nodeId="node-0xc85d9f0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3263,10 +3663,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x492bc0" />
+      <child nodeId="node-0xc85da60" />
     </children>
   </item>
-  <item nodeId="node-0x492bc0">
+  <item nodeId="node-0xc85da60">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 I
@@ -3279,10 +3679,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x492c30" />
+      <child nodeId="node-0xc85dad0" />
     </children>
   </item>
-  <item nodeId="node-0x492c30">
+  <item nodeId="node-0xc85dad0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 II
@@ -3295,10 +3695,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x492ca0" />
+      <child nodeId="node-0xc85db40" />
     </children>
   </item>
-  <item nodeId="node-0x492ca0">
+  <item nodeId="node-0xc85db40">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 III
@@ -3311,10 +3711,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x492d10" />
+      <child nodeId="node-0xc85dbb0" />
     </children>
   </item>
-  <item nodeId="node-0x492d10">
+  <item nodeId="node-0xc85dbb0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 V
@@ -3329,10 +3729,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x492d80" />
+      <child nodeId="node-0xc85dc20" />
     </children>
   </item>
-  <item nodeId="node-0x492d80">
+  <item nodeId="node-0xc85dc20">
     <command xml:space="preserve">e</command>
     <result xml:space="preserve">
 VI
@@ -3343,30 +3743,30 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x492df0" />
+      <child nodeId="node-0xc85dc90" />
     </children>
   </item>
-  <item nodeId="node-0x492df0">
+  <item nodeId="node-0xc85dc90">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x492e60" />
+      <child nodeId="node-0xc85dd00" />
     </children>
   </item>
-  <item nodeId="node-0x492e60">
+  <item nodeId="node-0xc85dd00">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x492ed0" />
+      <child nodeId="node-0xc85dd70" />
     </children>
   </item>
-  <item nodeId="node-0x492ed0">
+  <item nodeId="node-0xc85dd70">
     <command xml:space="preserve">drop cake</command>
     <result xml:space="preserve">You drop half of the piece of cake and hide. The guards notice right away the delectable scent, and near the door to investigate. One of them steps forward, &quot;Hey! My slice of cake! Actually, guys, isn&apos;t it lunch time?&quot; The guards take off to room IV, and you and Roy enter the code (RGB) to sneak off to the next room.
 
@@ -3382,10 +3782,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x492f40" />
+      <child nodeId="node-0xc85dde0" />
     </children>
   </item>
-  <item nodeId="node-0x492f40">
+  <item nodeId="node-0xc85dde0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">(first opening Hallway door)
 
@@ -3397,36 +3797,325 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x492fb0" />
+      <child nodeId="node-0xc85de50" />
     </children>
   </item>
-  <item nodeId="node-0x492fb0">
+  <item nodeId="node-0xc85de50">
     <command xml:space="preserve">drop cake</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x493020" />
+      <child nodeId="node-0xc85dec0" />
     </children>
   </item>
-  <item nodeId="node-0x493020">
+  <item nodeId="node-0xc85dec0">
     <command xml:space="preserve">drop cake</command>
     <result xml:space="preserve">&gt;</result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="106">YES</temporary>
     <children>
-      <child nodeId="node-0x493090" />
+      <child nodeId="node-0xc85df30" />
     </children>
   </item>
-  <item nodeId="node-0x493090">
+  <item nodeId="node-0xc85df30">
     <command xml:space="preserve">drop cake</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="105">YES</temporary>
   </item>
-  <item nodeId="node-0x493100">
+  <item nodeId="node-0xbfac540">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Entrance
+A petite room with black and white checkerboard-style tiles, and grey walls. There is a plant on either side of the doorway, and three narrow windows. The exit is to the north.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+    <children>
+      <child nodeId="node-0x68006d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x68006d0">
+    <command xml:space="preserve">x plant</command>
+    <result xml:space="preserve">Two small potted plants. After checking the pots, you discover a bit! You put the bit in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+    <children>
+      <child nodeId="node-0xbfb4730" />
+    </children>
+  </item>
+  <item nodeId="node-0xbfb4730">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+I
+You listen through the door to make sure no one`s guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. The exit is to the west and back south.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9550" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9550">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+    <children>
+      <child nodeId="node-0x158b5590" />
+    </children>
+  </item>
+  <item nodeId="node-0x158b5590">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+II
+What looks like a meeting room...there are a few seats, a desk, and a whiteboard/projector screen. The exit is to the west and back east.
+
+You can see Seats, Desk and White board here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+    <children>
+      <child nodeId="node-0x4b3c80" />
+    </children>
+  </item>
+  <item nodeId="node-0x4b3c80">
+    <command xml:space="preserve">W</command>
+    <result xml:space="preserve">
+III
+A rather empty storage room. Hmm. Must be one of their newer hideouts. The exit is to the north and back east.
+
+You can see Boxes (closed) here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+    <children>
+      <child nodeId="node-0x993e6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x993e6f0">
+    <command xml:space="preserve">X BOX</command>
+    <result xml:space="preserve">A few boxes that the orginization must`ve used to move in all their stuff.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+    <children>
+      <child nodeId="node-0x142b69a0" />
+    </children>
+  </item>
+  <item nodeId="node-0x142b69a0">
+    <command xml:space="preserve">x boxes</command>
+    <result xml:space="preserve">A few boxes that the orginization must`ve used to move in all their stuff.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+    <children>
+      <child nodeId="node-0x14292630" />
+    </children>
+  </item>
+  <item nodeId="node-0x14292630">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+    <children>
+      <child nodeId="node-0x2069b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x2069b0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+    <children>
+      <child nodeId="node-0x99c2a50" />
+    </children>
+  </item>
+  <item nodeId="node-0x99c2a50">
+    <command xml:space="preserve">open box</command>
+    <result xml:space="preserve">You open Boxes, revealing Computer Science for Dummies book.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="130">YES</temporary>
+    <children>
+      <child nodeId="node-0x99f94c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x99f94c0">
+    <command xml:space="preserve">x book</command>
+    <result xml:space="preserve">Huh. Interesting. You don&apos;t know how much this&apos;d be of help, though, since you are already quite fluent in java, ruby, and python.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="129">YES</temporary>
+  </item>
+  <item nodeId="node-0x1428c980">
+    <command xml:space="preserve">s</command>
+    <result xml:space="preserve">
+Entrance
+A petite room with black and white checkerboard-style tiles, and grey walls. There is a plant on either side of the doorway, and three narrow windows. The exit is to the north.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0x139923e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x139923e0">
+    <command xml:space="preserve">x plant</command>
+    <result xml:space="preserve">Two small potted plants. After checking the pots, you discover a bit! You put the bit in your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0x1585e720" />
+    </children>
+  </item>
+  <item nodeId="node-0x1585e720">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+I
+You listen through the door to make sure no one`s guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. The exit is to the west and back south.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0x72b640" />
+    </children>
+  </item>
+  <item nodeId="node-0x72b640">
+    <command xml:space="preserve">spin dial to 507</command>
+    <result xml:space="preserve">&quot;CLICK&quot; The lockers are now unlocked. You can see Handcuffs and Piece of cake.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0x14296c60" />
+    </children>
+  </item>
+  <item nodeId="node-0x14296c60">
+    <command xml:space="preserve">take cake</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0x142acc90" />
+    </children>
+  </item>
+  <item nodeId="node-0x142acc90">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+II
+What looks like a meeting room...there are a few seats, a desk, and a whiteboard/projector screen. The exit is to the west and back east.
+
+You can see Seats, Desk and White board here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0xbf02b00" />
+    </children>
+  </item>
+  <item nodeId="node-0xbf02b00">
+    <command xml:space="preserve">w</command>
+    <result xml:space="preserve">
+III
+A rather empty storage room. Hmm. Must be one of their newer hideouts. The exit is to the north and back east.
+
+You can see Boxes (closed) here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="139">YES</temporary>
+    <children>
+      <child nodeId="node-0x14254b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x14254b40">
+    <command xml:space="preserve">n</command>
+    <result xml:space="preserve">
+IV
+What appears to be the guards` break room. A simple, clean room with a few tables and chairs for the base`s security guards to rest on. There is a counter along the wall across the door. Apparently it is not break time yet. The exit is back south.
+
+You can see Tables and Chairs here.
+
+Roy follows you here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="138">YES</temporary>
+  </item>
+  <item nodeId="node-0x682fdb0">
+    <command xml:space="preserve">sw</command>
+    <result xml:space="preserve">You can&apos;t go that way.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="49">YES</temporary>
+  </item>
+  <item nodeId="node-0xc85dfa0">
     <command xml:space="preserve">spin dial to 507</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -3435,10 +4124,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="308">YES</temporary>
     <children>
-      <child nodeId="node-0x493170" />
+      <child nodeId="node-0xc85e010" />
     </children>
   </item>
-  <item nodeId="node-0x493170">
+  <item nodeId="node-0xc85e010">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">
 I
@@ -3451,10 +4140,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="308">YES</temporary>
     <children>
-      <child nodeId="node-0x4931e0" />
+      <child nodeId="node-0xc85e080" />
     </children>
   </item>
-  <item nodeId="node-0x4931e0">
+  <item nodeId="node-0xc85e080">
     <command xml:space="preserve">spin dial to 507</command>
     <result xml:space="preserve">&quot;CLICK&quot; The lockers are now unlocked. You can see Handcuffs and Piece of cake.
 
@@ -3463,10 +4152,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="308">YES</temporary>
     <children>
-      <child nodeId="node-0x493250" />
+      <child nodeId="node-0xc85e0f0" />
     </children>
   </item>
-  <item nodeId="node-0x493250">
+  <item nodeId="node-0xc85e0f0">
     <command xml:space="preserve">take cake</command>
     <result xml:space="preserve">Taken.
 
@@ -3475,10 +4164,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="308">YES</temporary>
     <children>
-      <child nodeId="node-0x4932c0" />
+      <child nodeId="node-0xc85e160" />
     </children>
   </item>
-  <item nodeId="node-0x4932c0">
+  <item nodeId="node-0xc85e160">
     <command xml:space="preserve">n</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -3487,10 +4176,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="308">YES</temporary>
     <children>
-      <child nodeId="node-0x493330" />
+      <child nodeId="node-0xc85e1d0" />
     </children>
   </item>
-  <item nodeId="node-0x493330">
+  <item nodeId="node-0xc85e1d0">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 II
@@ -3503,10 +4192,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="308">YES</temporary>
     <children>
-      <child nodeId="node-0x4933a0" />
+      <child nodeId="node-0xc85e240" />
     </children>
   </item>
-  <item nodeId="node-0x4933a0">
+  <item nodeId="node-0xc85e240">
     <command xml:space="preserve">w</command>
     <result xml:space="preserve">
 III
@@ -3519,10 +4208,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="308">YES</temporary>
     <children>
-      <child nodeId="node-0x493410" />
+      <child nodeId="node-0xc85e2b0" />
     </children>
   </item>
-  <item nodeId="node-0x493410">
+  <item nodeId="node-0xc85e2b0">
     <command xml:space="preserve">s</command>
     <result xml:space="preserve">
 V
@@ -3537,10 +4226,10 @@ Roy follows you here.
     <changed>YES</changed>
     <temporary score="308">YES</temporary>
     <children>
-      <child nodeId="node-0x493480" />
+      <child nodeId="node-0xc85e320" />
     </children>
   </item>
-  <item nodeId="node-0x493480">
+  <item nodeId="node-0xc85e320">
     <command xml:space="preserve">e</command>
     <played>YES</played>
     <changed>YES</changed>
