@@ -4,12 +4,13 @@ The release number is 1.
 The story creation year is 2014.
 The story headline is "SECRET AGENTS YES[line break]".
 The story genre is "Adventure (I suppose)".
+The story description is "A pair of talented intelligencers go on a mission together. However, their personalities clash...a lot...how will this mission turn out?" 
 
-[Release along with cover art.]
+Release along with cover art.
 
 [whenever I play through this, all I can think is:	http://www.youtube.com/watch?v=vCuB_PrQJMA	You won't regret playing it.]
 
-[figured this out with the recipe book]
+[figured this out with the recipe book...to disable take all]
 Rule for deciding whether all includes scenery: it does not.
 Rule for deciding whether all includes people: it does not.
 Rule for deciding whether all includes things: it does not.
@@ -20,7 +21,7 @@ When play begins: say "You are known to be a highly-skilled female agent, and ar
 
 The description of the player is "'Lookin` mighty fine today, special agent' says Roy."
 
-Roy Zakarius is a man. The description is "Roy Zakarius is your (flirtatious) colleague."
+Roy Zakarius is a man. Roy Zakarius is in entrance. The description is "Roy Zakarius is your (flirtatious) colleague."
 
 Understand "Roy" as Roy Zakarius.
 
@@ -36,6 +37,29 @@ Every turn:
 		
 		above: deemed unnecessary, but I'll keep it just in case.]
 	
+[from Inform handbook...for talking to NPC]
+Talking to is an action applying to one visible thing.
+Understand "talk to [someone]" or “converse with
+[someone]” as talking to.
+		
+Instead of talking to Roy Zakarius for the first time:
+	say "'Do you maybe wanna grab dinner after this?'".
+	
+Instead of talking to Roy for the second time:
+	say "'Seriously, I know this really good Filipino place. They have the greatest adobo.'"
+	
+Instead of talking to Roy for the third time:
+	say "'So...is that a yes?' You look at Roy, a blank expression on your face, and slowly shake your head while mouthing out 'no'."
+	
+Instead of talking to Roy for the fourth time:
+	say "Before Roy could open his mouth, there was a loud crashing noise from another room. He dares not talk to you for the rest of this mission."
+	
+Instead of talking to Roy:
+	say "There was that crashing noise again...".
+	
+Instead of asking Roy about "bit":
+	say "'I think that's part of a key. It connects to the pin of the key.'".
+
 Entrance is a room. The description is "A petite room with black and white checkerboard-style tiles, and grey walls. There is a plant on either side of the doorway, and three narrow windows. The exit is to the north."
 
 Windows are scenery in entrance. The description is "You see a lot of trees. That is all."
@@ -52,7 +76,12 @@ Understand "plant" as plants.
 
 I is north of entrance. The description is "You listen through the door to make sure no one`s guarding the other side. . .Nope. You carefully slip past the threshold into the first room. You see a few lockers here. You assume they are for the guards. The exit is to the west and back south."
 
-The lockers are scenery in I. The description is "A simple set of lockers. To open them you must spin the dial to the correct number.		(Hint: when entering the numbers, type them in as a single number.)"
+The lockers are scenery in I. The description is "A simple set of lockers. To open them you must [bold type]spin[roman type] the [bold type]dial to [roman type]the correct number.		(Hint: when entering the numbers, type them in as a single number. (spin dial to ###) )"
+
+Understand "locker" as lockers.
+
+Instead of opening lockers:
+	say "They`re locked."
 
 Handcuffs are a thing. The description is "A pair of handcuffs. Roy has the cuff key. You can[bold type] use them on[roman type] something."
 
@@ -60,7 +89,7 @@ Piece of cake is a thing. The description is "It smells delicious. So good, that
 Understand "cake" as piece of cake.
 [gonna have player drop the cake to distract the guards...]
 
-[From Dylan's]
+[From Dylan's...to unlock with a combo]
 In the lockers are handcuffs and a piece of cake. The lockers are closed and fixed in place. Understand "dial" as the lockers.
 
 Spinning it to is an action applying to one thing and one number. Check spinning it to: if the noun is not the lockers, say "[The noun] does not spin." instead. Report spinning it to: say "You hear a 'Click', but nothing else happens."
@@ -72,14 +101,26 @@ After spinning the closed lockers to 507: now the lockers are open; say "'CLICK'
 
 II is west of I. The description is "What looks like a meeting room...there are a few seats, a desk, and a whiteboard/projector screen. The exit is to the west and back east."
 
-Seats are a thing in II. They are fixed in place. The description is "Very fancy seats..."
+Seats are an enterable supporter in II. They are fixed in place. The description is "Very fancy seats..."
 Understand "seat" as seats.
 
+Instead of entering seats:
+	say "You are a powerful military intelligencer. You do not need to sit. Meanwhile, you see Roy spinning around in one of the fancy chairs."
+	
 Desk is a thing in II. It is fixed in place. The description is "Fancy table..."
 
-White board is a thing in II. It is fixed in place. The description is "It has a really nice hawk drawing on it with 'A.L.C.O.' written beneath it."
+White board is a thing in II. It is fixed in place. The description is "It has a really nice hawk drawing on it with 'ALCO' written beneath it."
 
-III is west of II. The description is "A rather empty storage room. Hmm. Must be one of their newer hideouts. The exit is to the north and back east."
+Understand "whiteboard" as white board.
+
+Hawk drawing is scenery in II. The description is "A tribal-style drawing of a hawk."
+
+Instead of asking Roy about "ALCO":
+	say "'It`s the organization's name. It stands for awesome and lawless company. Pretty dumb, huh?'".
+	
+ALCO is scenery in II.
+
+III is west of II. The description is "A rather empty storage room. Hmm. Must be one of their newer hideouts. The exit is to the north, south, and back east."
 
 Boxes are a container in III. They is openable and closed. The description is "A few boxes that the orginization must`ve used to move in all their stuff. They`ve all already been opened, so most of the stuff must have been unpacked."
 Understand "box" as boxes.
@@ -113,7 +154,7 @@ Instead of eating red M&M: say "Yeah, no. This M&M has obviously been man-handle
 Instead of eating green M&M: say "Yeah, no. This M&M has obviously been man-handled and is clearly unsanitary."
 Instead of eating blue M&M: say "Yeah, no. This M&M has obviously been man-handled and is clearly unsanitary."
 
-Counter is scenery in IV. It is fixed in place. The description is "A marble counter. On top of it are stacks of cups, two coffee machines, napkins, a tub of marshmallows, and a mysterious, opened soup can."
+Counter is scenery in IV. It is fixed in place. The description is "A marble counter. On top of it are stacks of cups, two coffee machines, a tub of marshmallows, and a mysterious, opened soup can."
 
 Cups are a thing in IV. They are undescribed. They are fixed in place. The description is "Disposable heat-resistant cups"
 
@@ -160,7 +201,7 @@ Understand "RGB" as cigarette pack.
 
 Understand "RGB code" as cigarette pack.
 
-V is south of III.The description is "One of the walls is lined with computers-you assume that this is the makeshift HQ`s research room. You see a 3D printer blocked off by a rope."
+V is south of III.The description is "One of the walls is lined with computers-you assume that this is the makeshift HQ`s research room. You see a 3D printer blocked off by a rope. The exit is back north and to the east."
 
 [figured this out...]
 Rope is a thing. The description is "A thick rope that you can tie [bold type]to [roman type] something."
@@ -169,8 +210,9 @@ Understand "take [rope]" as examining.
 Instead of examining rope for the first time: say "You untie the rope from the poles and take it with you."; Now the player carries rope.
 [end: my "brilliance"]
 
+[just kidding. I feel like this part is pretty clever too]
 3D printer is a thing in V. 
-Instead of examining 3D printer: say "There is a sign on it that reads, 'Only prints plastic swords. Use at your own risk.' There is a strange sound, and out pops a plastic sword."
+Instead of examining 3D printer: say "There is a sign on it that reads, 'Only prints plastic swords. Use at your own risk.' Roy quickly pushes the button without hesitation. There is a strange sound, and out pops a plastic sword."
 
 Understand "use [3D printer]" as examining.
 
@@ -178,7 +220,7 @@ Plastic sword is a thing in V. It is undescribed. The description is "Extremely 
 
 Understand "sword" as plastic sword.
 
-VI is east of V. The description is "A spacious room. [if unvisited] All of the guards are gathered here. You can`t let them see you, as you can`t let yourself get caught. Maybe you can get them out of here if you dropped something... [end if]"
+VI is east of V. The description is "A spacious room. [if unvisited] All of the guards are gathered here. You can`t let them see you, as you can`t let yourself get caught. Maybe you can get them out of here if you dropped something... [end if]The exit is back west, and to the north. [if visited](Hint: check the description from the first time you visited VI)[end if]"
 
 After entering VI:
 	If player is not carrying piece of cake:
@@ -199,7 +241,7 @@ Instead of dropping cake for the first time:
 		remove cake from play;
 		remove guards from play.	
 
-[with help from senpai]
+[how to make VII unenterable...with help from senpai]
 Before going to VII:
 	If guards is in VI:
 		say "Despite your and Roy`s exceptional skill, you don`t think you can take all of these guys at once...especially when they each have all of that equipment...";
@@ -262,9 +304,7 @@ Before going through hallway door:
 			now hallway door is unlocked;
 			now hallway door is open;
 			move player to VII.]
-
 [or]
-
 
 [Instead of dropping cake: 
 	If player is in VI: 
@@ -315,7 +355,7 @@ Final door is lockable and locked. Key unlocks final door.
 
 Understand "door" as final door.
 
-VIII is north of final door. The description is "Together, you and Zakarius burst through the door into the boss` room, and run to restrain him. (Fortunately for you, the guards are, apparently, still occupied.) The boss laughs (a rather disgusting laugh) and smiles. 'Ah, I knew the military`d send someone for me someday...I just didn`t expect you lot to find me so soon.' You and Roy look at each other, remembering your mission: to bring Mr. Boss back alive for questioning."
+VIII is north of final door. The description is "Together, you and Zakarius burst through the door into the boss` room, and run to restrain him. (Fortunately for you, the guards are, apparently, still occupied.) The boss laughs (a rather disgusting laugh) and smiles. 'Ah, I knew the military`d send someone for me someday...I just didn`t expect you lot to find me so soon.' You and Roy look at each other, remembering your mission: to bring Mr. Boss back alive for questioning. The exit is to the south."
 
 The boss is a man in VIII. The description is "A fat man with a wonky face."
 
@@ -323,11 +363,10 @@ Understand "boss" as the boss.
 
 [BOSS BATTLE OKAY! :DDD]
 
-[hooray for figuring stuff out]
+[how to beat the boss...hooray for figuring stuff out]
 Instead of attacking the boss:
 	If the player is carrying plastic sword:
-		say "You whack the boss in the head, knocking him out. You and Zakarius easily drag him back to HQ.";
-		end the story finally.
+		end the story finally saying "You whack the boss in the head, knocking him out. You and Zakarius easily drag him back to HQ.".
 
 Understand "hit [the boss]" as attacking.	
 
@@ -337,12 +376,44 @@ Understand "hit [the boss]" as attacking.
 
 Instead of tying rope to the boss:
 	Now rope is part of the boss;
-	Say "You tie the boss up, making it easy for you and Zakarius to drag him back to HQ.";
-	End the story finally.
+	End the story finally 	saying "You tie the boss up, making it easy for you and Zakarius to drag him back to HQ.".
 
 Instead of tying handcuffs to boss:
 	Now handcuffs are part of the boss;
-	Say "You handcuff the boss, making it easy for you and Zakarius to drag him back to HQ.";
-	End the story finally.
+	End the story finally saying "You handcuff the boss, making it easy for you and Zakarius to drag him back to HQ.".
 	
 Understand "use [handcuffs] on [something]" as tying it to.
+
+
+
+
+[choosing your weapon to defeat the boss is like choosing your starter pokemon.
+
+"will you choose the aggressive, violent (glass cannon) plastic sword?"
+"or maybe you will choose the traditional, "book em dano" handcuffs?"
+"maybe you're one of those creative types who will choose the unique, more-difficult-to-use rope?"]
+
+
+
+
+
+[shortest route...and the least fun...
+
+x plant
+north
+spin dial to 507
+take cake and handcuffs
+west
+west
+south
+east
+drop cake
+north
+look under pot
+combine bit with pin
+unlock final door with key
+north
+use handcuffs on boss]
+
+
+
